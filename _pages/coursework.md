@@ -18,9 +18,13 @@ redirect_from:
 ## Data Science - Upper Division
 * CSE 151A Introduction to Machine Learning *(Planning - 2021 Winter)*
 * CSE 151B Deep Learning
+* CSE 156/256 Statistical Natural Language Processing *(Planning - 2021 Spring)*
 * CSE 190 Machine Learning for Music and Audio
+* CSE 291 Unknown, likely NLP related, with Prof. Berg-Kirkpatrick *(Planning - 2021 Spring)*
 * DSC 80 Practice of Data Science
 * DSC 100 Introduction to Data Management *(Planning - 2021 Winter)*
+* DSC 102 Systems for Scalable Analytics *(Planning - 2021 Spring)*
+* DSC 106 Introduction to Data Visualization *(Planning - 2021 Spring)*
 * DSC 190 Introduction to Data Mining *(Planning - 2021 Winter)*
 * MATH 183 Statistical Methods
 * MATH 189 Exploratory Data Analytsis and Inference *(Planning - 2021 Winter)*
