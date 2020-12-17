@@ -17,45 +17,45 @@ redirect_from:
 
 ## Data Science - Upper Division
 * CSE 151A Introduction to Machine Learning *(Planning - 2021 Winter)*
-* CSE 151B Deep Learning
+* CSE 151B Deep Learning **[A+]**
 * CSE 156/256 Statistical Natural Language Processing *(Planning - 2021 Spring)*
-* CSE 190 Machine Learning for Music and Audio
+* CSE 190 Machine Learning for Music and Audio **[A]**
 * CSE 291 Unknown, likely NLP related, with Prof. Berg-Kirkpatrick *(Planning - 2021 Spring)*
-* DSC 80 Practice of Data Science
+* DSC 80 Practice of Data Science **[Pending]**
 * DSC 100 Introduction to Data Management *(Planning - 2021 Winter)*
 * DSC 102 Systems for Scalable Analytics *(Planning - 2021 Spring)*
 * DSC 106 Introduction to Data Visualization *(Planning - 2021 Spring)*
 * DSC 190 Introduction to Data Mining *(Planning - 2021 Winter)*
-* MATH 183 Statistical Methods
+* MATH 183 Statistical Methods **[A+]**
 * MATH 189 Exploratory Data Analytsis and Inference *(Planning - 2021 Winter)*
 
 ## Data Science - Lower Division
-* COGS 9 Introduction to Data Science
-* DSC 20 Programming and Basic Data Structures for Data Science
-* DSC 30 Data Structures and Algorithms for Data Science
-* DSC 40A Theoretical Foundations of Data Science I
-* DSC 40B Theoretical Foundations of Data Science II
+* COGS 9 Introduction to Data Science **[A+]**
+* DSC 20 Programming and Basic Data Structures for Data Science **[A+]**
+* DSC 30 Data Structures and Algorithms for Data Science **[A+]**
+* DSC 40A Theoretical Foundations of Data Science I **[A+]**
+* DSC 40B Theoretical Foundations of Data Science II **[A+]**
 * DSC 90 Seminar in Data Science *(Planning - 2021 Winter)*
-* DSC 95 Tutor Apprenticeship in Data Science
-* DSC 96 Workshop in Data Science
-* MATH 18 Linear Algebra
-* MATH 20C Calculus & Analytic Geometry for Science & Engineering
-* 15-112 Fundamentals of Programming & Computer Science (Carnegie Mellon)
-* 36-200 Reasoning with Data (Carnegie Mellon)
+* DSC 95 Tutor Apprenticeship in Data Science **[Pass]**
+* DSC 96 Workshop in Data Science **[Pass]**
+* MATH 18 Linear Algebra **[A+]**
+* MATH 20C Calculus & Analytic Geometry for Science & Engineering **[A+]**
+* 15-112 Fundamentals of Programming & Computer Science (Carnegie Mellon) **[A]**
+* 36-200 Reasoning with Data (Carnegie Mellon) **[A]**
 
 ## Cognitive Science
-* COGS 17 Neurobiology of Cognition
+* COGS 17 Neurobiology of Cognition **[A+]**
 
 ## General Education
-* HIUS 103 United States & Pacific World
-* LIGN 8 Languages & Cultures of America
-* MMW 11 Pre-History & Ancient Foundations
-* MMW 12 Classical & Medieval Tradition
-* MMW 13 New Ideas and Cultural Encounters
-* MMW 14 Revolution, Industry, and Empire
-* MMW 15 Twentieth Century and Beyond
-* MUS 19 Blacktronika: Afrofuturism
-* MUS 126 Blues: An Oral Tradition
+* HIUS 103 United States & Pacific World **[Pass]**
+* LIGN 8 Languages & Cultures of America **[A]**
+* MMW 11 Pre-History & Ancient Foundations **[A]**
+* MMW 12 Classical & Medieval Tradition **[A]**
+* MMW 13 New Ideas and Cultural Encounters **[A]**
+* MMW 14 Revolution, Industry, and Empire **[A]**
+* MMW 15 Twentieth Century and Beyond **[A]**
+* MUS 19 Blacktronika: Afrofuturism **[A+]**
+* MUS 126 Blues: An Oral Tradition **[A+]**
 
 ## Advanced Placement (High School)
 * AP Calculus AB
