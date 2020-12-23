@@ -17,11 +17,11 @@ redirect_from:
 
 ## Data Science - Upper Division
 * CSE 151A Introduction to Machine Learning *(Planning - 2021 Winter)*
-* CSE 151B Deep Learning **[A+]**(Rank: 3/141)
+* CSE 151B Deep Learning **[A+]**(Rank: 3/142)
 * CSE 156/256 Statistical Natural Language Processing *(Planning - 2021 Spring)*
 * CSE 190 Machine Learning for Music and Audio **[A]**
 * CSE 291 Unknown, likely NLP related, with Prof. Berg-Kirkpatrick *(Planning - 2021 Spring)*
-* DSC 80 Practice of Data Science **[Pending]**
+* DSC 80 Practice of Data Science **[A]**
 * DSC 100 Introduction to Data Management *(Planning - 2021 Winter)*
 * DSC 102 Systems for Scalable Analytics *(Planning - 2021 Spring)*
 * DSC 106 Introduction to Data Visualization *(Planning - 2021 Spring)*
@@ -44,7 +44,7 @@ redirect_from:
 * 36-200 Reasoning with Data (Carnegie Mellon) **[A]**
 
 ## Cognitive Science
-* COGS 17 Neurobiology of Cognition **[A+]**
+* COGS 17 Neurobiology of Cognition **[A]**(A+ unavailable, scored 100.6)
 
 ## General Education
 * HIUS 103 United States & Pacific World **[Pass]**
@@ -55,7 +55,7 @@ redirect_from:
 * MMW 14 Revolution, Industry, and Empire **[A]**
 * MMW 15 Twentieth Century and Beyond **[A]**
 * MUS 19 Blacktronika: Afrofuturism **[A+]**
-* MUS 126 Blues: An Oral Tradition **[A+]**
+* MUS 126 Blues: An Oral Tradition **[A]**(A+ unavailable, scored 99.7)
 
 ## Advanced Placement (High School)
 * AP Calculus AB
