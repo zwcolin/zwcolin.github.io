@@ -18,9 +18,9 @@ redirect_from:
 ## Data Science - Upper Division
 * CSE 151A Introduction to Machine Learning *(In Progress - 2021 Winter)*
 * CSE 151B Deep Learning **[A+]**(Rank: 3/142)
+* CSE 190 Machine Learning for Music and Audio **[A]**
 * CSE 256 Statistical Natural Language Processing *(Graduate Course Planning - 2021 Spring)*
 * CSE 259 AI Seminar *(Graduate Course In Progress - 2021 Winter)*
-* CSE 190 Machine Learning for Music and Audio **[A]**
 * CSE 291 Unknown, likely NLP related, with Prof. Berg-Kirkpatrick *(Graduate Course Planning - 2021 Spring)*
 * DSC 80 Practice of Data Science **[A]**
 * DSC 100 Introduction to Data Management *(In Progress - 2021 Winter)*
