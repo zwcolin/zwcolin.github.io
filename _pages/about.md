@@ -17,7 +17,7 @@ I'm a second year undergraduate student majoring in **Data Science** and **Cogni
 * Designing novel Deep Neural Network for temporal data
 * Image Processing & Generation
 
-I'm currently working on a research project in GAN-based audio/music generation at CREL Lab, Calit2. I'm also **open** to more research opportunities **including but not limited to** the above areas.
+I'm working on a research project in GAN-based audio/music generation at CREL Lab, Calit2 (Collaborated with Vignesh Gokul under Prof. Shlomo Dubnov. Currently we're experimenting  with the model and preparing for ICML 2021). I'm also **open** to more research opportunities **including but not limited to** the above areas.
 
 ## Goals
 
