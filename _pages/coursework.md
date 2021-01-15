@@ -17,11 +17,10 @@ redirect_from:
 
 ## Data Science - Upper Division
 * CSE 151A Introduction to Machine Learning *(In Progress - 2021 Winter)*
-* CSE 151B Deep Learning **[A+]**(Rank: 3/142)
+* CSE 151B Deep Learning **[A+]**(📈 Rank: 3/142)
 * CSE 190 Machine Learning for Music and Audio **[A]**
 * CSE 256 Statistical Natural Language Processing *(Graduate Course Planning - 2021 Spring)*
 * CSE 259 AI Seminar *(Graduate Course In Progress - 2021 Winter)*
-* CSE 291 Unknown, likely NLP related, with Prof. Berg-Kirkpatrick *(Graduate Course Planning - 2021 Spring)*
 * DSC 80 Practice of Data Science **[A]**
 * DSC 100 Introduction to Data Management *(In Progress - 2021 Winter)*
 * DSC 102 Systems for Scalable Analytics *(Planning - 2021 Spring)*
@@ -32,11 +31,10 @@ redirect_from:
 
 ## Data Science - Lower Division
 * COGS 9 Introduction to Data Science **[A+]**
-* DSC 20 Programming and Basic Data Structures for Data Science **[A+]**(Rank: 1/146)
-* DSC 30 Data Structures and Algorithms for Data Science **[A+]**(Rank: 5/151)
-* DSC 40A Theoretical Foundations of Data Science I **[A+]**(Rank: Top 5/99)
-* DSC 40B Theoretical Foundations of Data Science II **[A+]**(Rank: Top 5/97)
-* DSC 90 Seminar in Data Science *(Planning - 2021 Winter)*
+* DSC 20 Programming and Basic Data Structures for Data Science **[A+]**(📈 Rank: 1/146)
+* DSC 30 Data Structures and Algorithms for Data Science **[A+]**(📈 Rank: 5/151)
+* DSC 40A Theoretical Foundations of Data Science I **[A+]**(📈 Rank: **Top** 5/99)
+* DSC 40B Theoretical Foundations of Data Science II **[A+]**(📈 Rank: **Top** 5/97)
 * DSC 95 Tutor Apprenticeship in Data Science **[Pass]**
 * DSC 96 Workshop in Data Science **[Pass]**
 * MATH 18 Linear Algebra **[A+]**
