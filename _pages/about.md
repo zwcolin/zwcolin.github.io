@@ -11,7 +11,7 @@ redirect_from:
 I'm a second year undergraduate student majoring in **Data Science** and **Cognitive Science** at the [Halıcıoğlu Data Science Institute](https://datascience.ucsd.edu) in **University of California, San Diego**. I'm generally interested in applications of deep learning, in particular **deep generative models for images and audio**. Outside of academics, I'm an **EDM Producer/DJ** with 5 years of experience.
 
 ## 📣 News
-* 📰 [My project is on UCSD HDSI Website](https://datascience.ucsd.edu/congratulations-2021-hdsi-scholarship-recipients/)
+* 📰 [My project is featured on UCSD HDSI Website](https://datascience.ucsd.edu/congratulations-2021-hdsi-scholarship-recipients/)
 * 📰 My project is featured on UCSD Music Department Newsletter
 
 ## 🎓 Current Academic Interests
