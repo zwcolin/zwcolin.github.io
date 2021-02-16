@@ -19,7 +19,7 @@ redirect_from:
 * CSE 151A Introduction to Machine Learning *(In Progress - 2021 Winter)*
 * CSE 151B Deep Learning **[A+]**(📈 Rank: 3/142)
 * CSE 190 Machine Learning for Music and Audio **[A]**
-* CSE 256 Statistical Natural Language Processing *(Graduate Course Planning - 2021 Spring)*
+* CSE 257 Search and Optimization *(Graduate Course Planning - 2021 Spring)*
 * CSE 259 AI Seminar *(Graduate Course In Progress - 2021 Winter)*
 * DSC 80 Practice of Data Science **[A]**
 * DSC 100 Introduction to Data Management *(In Progress - 2021 Winter)*
@@ -44,6 +44,7 @@ redirect_from:
 
 ## Cognitive Science
 * COGS 17 Neurobiology of Cognition **[A]**(A+ unavailable, scored 100.6)
+* COGS 101A Sensation and Perception (Planning - 2021 Spring)
 
 ## General Education
 * HIUS 103 United States & Pacific World **[Pass]**
