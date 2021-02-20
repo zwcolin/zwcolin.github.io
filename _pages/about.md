@@ -12,7 +12,7 @@ I'm a second year undergraduate student majoring in **Data Science** and **Cogni
 
 ## 📣 News
 * 📰 [My project is featured on UCSD HDSI Website](https://datascience.ucsd.edu/congratulations-2021-hdsi-scholarship-recipients/)
-* 📰 My project is featured on UCSD Music Department Newsletter
+* 📰 [My project is featured on UCSD Music Department Newsletter](https://music-cms.ucsd.edu/concerts/news/index.html#January-2021)
 
 ## 🎓 Current Academic Interests
 
