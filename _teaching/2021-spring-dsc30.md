@@ -1,7 +1,7 @@
 ---
 title: "Data Structures and Algorithms for Data Science"
 collection: teaching
-type: "Undergraduate"
+type: Spring 2021, Undergraduate, Lower Division
 permalink:
 venue: "HDSI, UC San Diego"
 date: 2021-03-24
