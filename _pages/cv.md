@@ -23,10 +23,11 @@ redirect_from:
   * Collaborator: Vignesh Gokul
   * Supervisor: Prof. Shlomo Dubnov
 
-* **Tutor**, HDSI (UC San Diego), Oct 2020 - Present
+* **Tutor**, HDSI & Jacobs School of Engineering (UC San Diego), Oct 2020 - Present
   * Explaining technical course concepts to students who don't have a solid technical background by holding office hours, discussion sessions, answering Piazza questions, and proposing fun quizzes and actitivities.
   * Making test cases for students' labs and homeworks on Gradescope.
   * Crafting questions for exams (midterms).
+  * Course tutored include DSC 20 (Python Programming), DSC 30 (Java Programming), CSE 151A (Intro to Machine Learning).
   
 * **Data Analyst Intern**, Tencent, June 2020 - Sept 2020
   * Reviewed various state-of-the-art research paper on user attribution analysis.
