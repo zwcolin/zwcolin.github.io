@@ -1,10 +1,10 @@
 ---
 title: "Introduction to Machine Learning"
 collection: teaching
-type: "Undergraduate"
+type: "Spring 2021, Undergraduate, Upper Division"
 permalink:
 venue: "JSoE, UC San Diego"
-date: 2021-03-24
+date: 2021-03-25
 location: "Remote"
 ---
 * Title: **Tutor** (alias for Undergraduate Teaching Assistant)
