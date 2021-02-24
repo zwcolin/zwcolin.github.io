@@ -22,3 +22,10 @@ I'm a second year undergraduate student majoring in **Data Science** and **Cogni
 * 🔧 ML Optimization
 
 I'm working on a research project in GAN-based audio/music generation at CREL Lab, Calit2 (Collaborated with Vignesh Gokul under Prof. Shlomo Dubnov. I'm currently **no longer open** to more research opportunities for spring and early summer. However, feel free to reach out to me for any inquiries!
+
+## 🤗 Hobbies
+* 💰 Investments & VC
+* 📈 Stock Trading & Options
+* 🎮 Gaming (LOL, PUBG, GTA)
+* 🎛️ EDM Production
+* 🏋️ Workout
