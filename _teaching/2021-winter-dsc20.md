@@ -1,7 +1,7 @@
 ---
 title: "Programming and Basic Data Structures for Data Science"
 collection: teaching
-type: "Undergraduate"
+type: "Winter 2021, Undergraduate, Lower Division"
 permalink:
 venue: "HDSI, UC San Diego"
 date: 2021-01-05
