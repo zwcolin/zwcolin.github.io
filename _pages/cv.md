@@ -37,16 +37,17 @@ redirect_from:
   * Analyzed the relationship between income and water & soil conservation in Loess Plateau during WWII.
   * Visualized and made inference on data on ArcGIS Pro and Tableau.
 
-## Honors & Awards
+## 🏅 Honors & Awards
 ------
-* **Recipient**: 1 of the 20 recipient in the entire department awarding a Halıcıoğlu Data Science Institute Undergraduate Scholarship of **$2,500** for research, 2020-2021 
-* **Provost Honors**: Eleanor Roosevelt College, UC San Diego, 2019-2020
-* **Champion**: Datahacks 2020, Business Track at UCSD. Awarded **$30,000** scholarship into MSBA (Master in Business Analytic) Program at Rady School of Management in UCSD.
-* **Top 100**: Spinnin' Records Talent Pool (An EDM Record Label under Warner Music Group), 2019
-* **Runner-Up**: Asian Regional Space Settlement Design Competition, 2018
-* **Champion**: Space Settlement Design Competition China (Country Final), 2018
-* **Champion**: Space Settlement Design Competition China (Regional Final), 2017
-* **Exclusive DI Award**: Destination Imangination China, 2016
+* **🏆 Champion**: Kaggle Data Mining Challenge, DSC 190: Intro to Data Mining, UC San Diego, 2021
+* **🎖️💰 Recipient**: 1 of the 20 recipient in the entire department awarding a Halıcıoğlu Data Science Institute Undergraduate Scholarship of **$2,500** for research, 2020-2021 
+* **🎖️ Provost Honors**: Eleanor Roosevelt College, UC San Diego, 2019-2020
+* **🏆💰 Champion**: Datahacks 2020, Business Track at UCSD. Awarded **$30,000** scholarship into MSBA (Master in Business Analytic) Program at Rady School of Management in UCSD.
+* **🎖️ Top 100**: Spinnin' Records Talent Pool (An EDM Record Label under Warner Music Group), 2019
+* **🏆 Runner-Up**: Asian Regional Space Settlement Design Competition, 2018
+* **🏆 Champion**: Space Settlement Design Competition China (Country Final), 2018
+* **🏆 Champion**: Space Settlement Design Competition China (Regional Final), 2017
+* **🏆 Exclusive DI Award**: Destination Imangination China, 2016
 
 ## Skills
 ------
