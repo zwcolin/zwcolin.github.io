@@ -10,6 +10,10 @@ redirect_from:
 
 I'm a second year undergraduate student majoring in **Data Science** and **Cognitive Science** at the [Halıcıoğlu Data Science Institute](https://datascience.ucsd.edu) in **University of California, San Diego**. I'm generally interested in applications of deep learning, in particular **deep generative models for images and audio**. Outside of academics, I'm an **EDM Producer/DJ** with 5 years of experience.
 
+### Course Schedule
+To my friends at UC San Diego, here is my tentative four-year plan with quarter-by-quarter course schedule. If you want to take courses together with me, please refer to the below document and discuss any plans on wechat (if you have it) or UCSD email to see if there are possibilities. This tentative plan is subject to changes at anytime.
+(My Four-Year Plan with Quarter-by-Quarter Schedule)[https://docs.google.com/spreadsheets/d/1ijkFMfiha0Nr3dzXtslOnQ1cuTaiagSm0-RVH_q8FoY/edit?usp=sharing]
+
 ## 📣 News
 * 🥇 [Champion of Data Mining Challenge in DSC 190](https://www.kaggle.com/c/ucsd-dsc190-wi21-introduction-to-data-mining/leaderboard) \| [Solution](https://github.com/zwcolin/dsc190-kaggle) \| [Slides](https://docs.google.com/presentation/d/1WxgHtFA0XqmbKwXgYtmNk5FQRq42FbVMjAH-fJgcZMo/edit#slide=id.p) [Feb 2021]
 * 📰 [My project is featured on UCSD HDSI Website](https://datascience.ucsd.edu/congratulations-2021-hdsi-scholarship-recipients/) [Feb 2021]
