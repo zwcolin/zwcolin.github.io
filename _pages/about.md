@@ -12,7 +12,7 @@ I'm a second year undergraduate student majoring in **Data Science** and **Cogni
 
 ### Course Schedule
 To my friends at UC San Diego, here is my tentative four-year plan with quarter-by-quarter course schedule. If you want to take courses together with me, please refer to the below document and discuss any plans on wechat (if you have it) or UCSD email to see if there are possibilities. This tentative plan is subject to changes at anytime.
-(My Four-Year Plan with Quarter-by-Quarter Schedule)[https://docs.google.com/spreadsheets/d/1ijkFMfiha0Nr3dzXtslOnQ1cuTaiagSm0-RVH_q8FoY/edit?usp=sharing]
+[My Four-Year Plan with Quarter-by-Quarter Schedule](https://docs.google.com/spreadsheets/d/1ijkFMfiha0Nr3dzXtslOnQ1cuTaiagSm0-RVH_q8FoY/edit?usp=sharing)
 
 ## 📣 News
 * 🥇 [Champion of Data Mining Challenge in DSC 190](https://www.kaggle.com/c/ucsd-dsc190-wi21-introduction-to-data-mining/leaderboard) \| [Solution](https://github.com/zwcolin/dsc190-kaggle) \| [Slides](https://docs.google.com/presentation/d/1WxgHtFA0XqmbKwXgYtmNk5FQRq42FbVMjAH-fJgcZMo/edit#slide=id.p) [Feb 2021]
