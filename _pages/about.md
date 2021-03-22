@@ -16,8 +16,8 @@ To my friends at UC San Diego, here is my tentative four-year plan with quarter-
 [My Four-Year Plan with Quarter-by-Quarter Schedule](https://docs.google.com/spreadsheets/d/1ijkFMfiha0Nr3dzXtslOnQ1cuTaiagSm0-RVH_q8FoY/edit?usp=sharing)
 
 ## 📣 News & Showroom
-* 📝 [Final Project Report for ML Algorithm Implementation from Scratch with Numpy (DSC 190)](ziruiw.net) [Mar 2021][Not publicly available]
-* 📝 [Final Project for Swiss Banknote EDA & ML Pipeline with R (MATH 189)](ziruiw.net) [Mar 2021]
+* 📝 [Final Project Report for ML Algorithm Implementation from Scratch with Numpy (DSC 190)](https://github.com/zwcolin) [Mar 2021][Not publicly available]
+* 📝 [Final Project for Swiss Banknote EDA & ML Pipeline with R (MATH 189)](https://github.com/zwcolin/EDA-ML-with-R-MATH189/blob/main/Final%20Project/finalproj.pdf) [Mar 2021]
 * 🥇 [Champion of Data Mining Challenge in DSC 190](https://www.kaggle.com/c/ucsd-dsc190-wi21-introduction-to-data-mining/leaderboard) \| [Solution](https://github.com/zwcolin/dsc190-kaggle) \| [Slides](https://docs.google.com/presentation/d/1WxgHtFA0XqmbKwXgYtmNk5FQRq42FbVMjAH-fJgcZMo/edit#slide=id.p) [Feb 2021]
 * 📰 [My project is featured on UCSD HDSI Website](https://datascience.ucsd.edu/congratulations-2021-hdsi-scholarship-recipients/) [Feb 2021]
 * 📰 [My project is featured on UCSD Music Department Newsletter](https://music-cms.ucsd.edu/concerts/news/index.html#January-2021) [Feb 2021]
