@@ -16,18 +16,18 @@ redirect_from:
 * Undergraduate Cognitive Science Major GPA: **4.00**
 
 ## Data Science - Upper Division
-* CSE 151A Introduction to Machine Learning *(In Progress - 2021 Winter)*
+* CSE 151A Introduction to Machine Learning **[A+]**
 * CSE 151B Deep Learning **[A+]**(📈 Rank: 3/142)
 * CSE 190 Machine Learning for Music and Audio **[A]**
 * CSE 257 Search and Optimization *(Graduate Course Planning - 2021 Spring)*
-* CSE 259 AI Seminar *(Graduate Course In Progress - 2021 Winter)*
+* CSE 259 AI Seminar **[Pass]**(Pass/No Pass Only)
 * DSC 80 Practice of Data Science **[A]**
-* DSC 100 Introduction to Data Management *(In Progress - 2021 Winter)*
+* DSC 100 Introduction to Data Management **[A+]**
 * DSC 102 Systems for Scalable Analytics *(Planning - 2021 Spring)*
 * DSC 106 Introduction to Data Visualization *(Planning - 2021 Spring)*
-* DSC 190 Introduction to Data Mining *(In Progress - 2021 Winter)*
+* DSC 190 Introduction to Data Mining **[A+]**
 * MATH 183 Statistical Methods **[A+]**
-* MATH 189 Exploratory Data Analytsis and Inference *(In Progress - 2021 Winter)*
+* MATH 189 Exploratory Data Analytsis and Inference **[A+]**(📈 Rank: 1/144)
 
 ## Data Science - Lower Division
 * COGS 9 Introduction to Data Science **[A+]**
@@ -35,8 +35,8 @@ redirect_from:
 * DSC 30 Data Structures and Algorithms for Data Science **[A+]**(📈 Rank: 5/151)
 * DSC 40A Theoretical Foundations of Data Science I **[A+]**(📈 Rank: **Top** 5/99)
 * DSC 40B Theoretical Foundations of Data Science II **[A+]**(📈 Rank: **Top** 5/97)
-* DSC 95 Tutor Apprenticeship in Data Science **[Pass]**
-* DSC 96 Workshop in Data Science **[Pass]**
+* DSC 95 Tutor Apprenticeship in Data Science **[Pass]**(Pass/No Pass Only)
+* DSC 96 Workshop in Data Science **[Pass]**(Pass/No Pass Only)
 * MATH 18 Linear Algebra **[A+]**
 * MATH 20C Calculus & Analytic Geometry for Science & Engineering **[A+]**
 * 15-112 Fundamentals of Programming & Computer Science (Carnegie Mellon) **[A]**
