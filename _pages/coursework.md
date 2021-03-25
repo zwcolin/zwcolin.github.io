@@ -22,10 +22,10 @@ redirect_from:
 * CSE 257 Search and Optimization *(Graduate Course Planning - 2021 Spring)*
 * CSE 259 AI Seminar **[Pass]**(Pass/No Pass Only)
 * DSC 80 Practice of Data Science **[A]**
-* DSC 100 Introduction to Data Management **[A+]**
+* DSC 100 Introduction to Data Management **[A+]**(📈 Rank: **Top** 3/145)
 * DSC 102 Systems for Scalable Analytics *(Planning - 2021 Spring)*
 * DSC 106 Introduction to Data Visualization *(Planning - 2021 Spring)*
-* DSC 190 Introduction to Data Mining **[A+]**
+* DSC 190 Introduction to Data Mining **[A+]**(📈 Rank: 1/28)
 * MATH 183 Statistical Methods **[A+]**
 * MATH 189 Exploratory Data Analytsis and Inference **[A+]**(📈 Rank: 1/144)
 
