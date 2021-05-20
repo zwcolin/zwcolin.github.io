@@ -15,16 +15,17 @@ redirect_from:
 * Undergraduate Data Science Major GPA: **4.00**
 * Undergraduate Cognitive Science Major GPA: **4.00**
 
+Aiming for *summa cum laude* upon graduation.
+
 ## Data Science - Upper Division
 * CSE 151A Introduction to Machine Learning **[A+]**
 * CSE 151B Deep Learning **[A+]**(📈 Rank: 3/142)
 * CSE 190 Machine Learning for Music and Audio **[A]**
-* CSE 257 Search and Optimization *(Graduate Course Planning - 2021 Spring)*
 * CSE 259 AI Seminar **[Pass]**(Pass/No Pass Only)
 * DSC 80 Practice of Data Science **[A]**
 * DSC 100 Introduction to Data Management **[A+]**(📈 Rank: **Top** 3/145)
-* DSC 102 Systems for Scalable Analytics *(Planning - 2021 Spring)*
-* DSC 106 Introduction to Data Visualization *(Planning - 2021 Spring)*
+* DSC 102 Systems for Scalable Analytics *(In Progress - 2021 Spring)*
+* DSC 106 Introduction to Data Visualization *(In Progress - 2021 Spring)*
 * DSC 190 Introduction to Data Mining **[A+]**(📈 Rank: 1/28)
 * MATH 183 Statistical Methods **[A+]**
 * MATH 189 Exploratory Data Analytsis and Inference **[A+]**(📈 Rank: 1/144)
@@ -43,8 +44,9 @@ redirect_from:
 * 36-200 Reasoning with Data (Carnegie Mellon) **[A]**
 
 ## Cognitive Science
+* COGS 1 Introduction to Cognitive Science (In Progress - 2021 Spring)
 * COGS 17 Neurobiology of Cognition **[A]**(A+ unavailable, scored 100.6)
-* COGS 101A Sensation and Perception (Planning - 2021 Spring)
+* COGS 101A Sensation and Perception (In Progress - 2021 Spring)
 
 ## General Education
 * HIUS 103 United States & Pacific World **[Pass]**
