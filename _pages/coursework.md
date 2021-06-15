@@ -24,8 +24,8 @@ Aiming for *summa cum laude* upon graduation.
 * CSE 259 AI Seminar **[Pass]**(Pass/No Pass Only)
 * DSC 80 Practice of Data Science **[A]**
 * DSC 100 Introduction to Data Management **[A+]**(📈 Rank: **Top** 3/145)
-* DSC 102 Systems for Scalable Analytics *(In Progress - 2021 Spring)*
-* DSC 106 Introduction to Data Visualization *(In Progress - 2021 Spring)*
+* DSC 102 Systems for Scalable Analytics **[A+]**
+* DSC 106 Introduction to Data Visualization **[A+]**
 * DSC 190 Introduction to Data Mining **[A+]**(📈 Rank: 1/28)
 * MATH 183 Statistical Methods **[A+]**
 * MATH 189 Exploratory Data Analytsis and Inference **[A+]**(📈 Rank: 1/144)
@@ -44,9 +44,9 @@ Aiming for *summa cum laude* upon graduation.
 * 36-200 Reasoning with Data (Carnegie Mellon) **[A]**
 
 ## Cognitive Science
-* COGS 1 Introduction to Cognitive Science (In Progress - 2021 Spring)
+* COGS 1 Introduction to Cognitive Science **[A+]**
 * COGS 17 Neurobiology of Cognition **[A]**(A+ unavailable, scored 100.6)
-* COGS 101A Sensation and Perception (In Progress - 2021 Spring)
+* COGS 101A Sensation and Perception **[A+]**
 
 ## General Education
 * HIUS 103 United States & Pacific World **[Pass]**
