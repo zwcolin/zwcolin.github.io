@@ -18,15 +18,21 @@ redirect_from:
 Aiming for *summa cum laude* upon graduation.
 
 ## Data Science - Upper Division
+* COGS 108 Data Science in Practice (Planning, Fall 2021)
+* CSE 150A Introduction to Artificial Intelligence: Probabilistic Reasoning and Decision-Making (Planning, Winter 2022)
 * CSE 151A Introduction to Machine Learning **[A+]**
 * CSE 151B Deep Learning **[A+]**(📈 Rank: 3/142)
+* CSE 152A Introduction to Computer Vision I (Planning, Fall 2021)
 * CSE 190 Machine Learning for Music and Audio **[A]**
 * CSE 259 AI Seminar **[Pass]**(Pass/No Pass Only)
 * DSC 80 Practice of Data Science **[A]**
 * DSC 100 Introduction to Data Management **[A+]**(📈 Rank: **Top** 3/145)
 * DSC 102 Systems for Scalable Analytics **[A+]**
 * DSC 106 Introduction to Data Visualization **[A+]**
+* DSC 180A Data Science Project I, Natural Language Processing (Planning, Fall 2021)
+* DSC 180B Data Science Project II, Natural Language Processing (Planning, Winter 2022)
 * DSC 190 Introduction to Data Mining **[A+]**(📈 Rank: 1/28)
+* DSC 190 Machine Learning with Few Labels (Planning, Fall 2021)
 * MATH 183 Statistical Methods **[A+]**
 * MATH 189 Exploratory Data Analytsis and Inference **[A+]**(📈 Rank: 1/144)
 
@@ -43,10 +49,16 @@ Aiming for *summa cum laude* upon graduation.
 * 15-112 Fundamentals of Programming & Computer Science (Carnegie Mellon) **[A]**
 * 36-200 Reasoning with Data (Carnegie Mellon) **[A]**
 
-## Cognitive Science
-* COGS 1 Introduction to Cognitive Science **[A+]**
-* COGS 17 Neurobiology of Cognition **[A]**(A+ unavailable, scored 100.6)
+## Cognitive Science - Upper Division
 * COGS 101A Sensation and Perception **[A+]**
+* COGS 107A Neuroanatomy and Physiology (In Progress, Summer Session 2021)
+
+
+## Cognitive Science - Lower Division
+* COGS 1 Introduction to Cognitive Science **[A+]**
+* COGS 13 Field Methods: Studying Cognition in the Wild (Planning, Fall 2021)
+* COGS 17 Neurobiology of Cognition **[A]**(A+ unavailable, scored 100.6)
+
 
 ## General Education
 * HIUS 103 United States & Pacific World **[Pass]**
