@@ -10,12 +10,20 @@ redirect_from:
 {% include base_path %}
 
 ## GPA
-------
 * Undergraduate GPA: **4.00**
 * Undergraduate Data Science Major GPA: **4.00**
 * Undergraduate Cognitive Science Major GPA: **4.00**
 
 Aiming for *summa cum laude* upon graduation.
+
+## Ranking
+* By Major (Cognitive Science): 1/236
+* By Major (Data Science): 1/806
+* By College (ERC): 1/2671
+* By Level (Senior): 1/15661
+
+*Rankings are determined up until Winter 2021*
+
 
 ## Data Science - Upper Division
 * COGS 108 Data Science in Practice (Planning, Fall 2021)
@@ -55,7 +63,7 @@ Aiming for *summa cum laude* upon graduation.
 
 
 ## Cognitive Science - Lower Division
-* COGS 1 Introduction to Cognitive Science **[A+]**
+* COGS 1 Introduction to Cognitive Science **[A]**
 * COGS 13 Field Methods: Studying Cognition in the Wild (Planning, Fall 2021)
 * COGS 17 Neurobiology of Cognition **[A]**(A+ unavailable, scored 100.6)
 
