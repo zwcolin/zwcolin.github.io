@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Machine Learning"
+title: "CSE 151A: Introduction to Machine Learning"
 collection: teaching
 type: "Spring 2021, Undergraduate, Upper Division"
 permalink:
