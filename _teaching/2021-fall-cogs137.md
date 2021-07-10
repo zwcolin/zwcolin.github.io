@@ -1,5 +1,5 @@
 ---
-title: "Practical Data Science in R"
+title: "COGS 137: Practical Data Science in R"
 collection: teaching
 type: Fall 2021, Undergraduate, Upper Division
 permalink:
