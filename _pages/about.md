@@ -17,6 +17,7 @@ To my friends at UC San Diego, here is my tentative four-year plan with quarter-
 
 ## 📣 News & Showroom
 * 📝 [Final Project for Lyft Bike Sharing Data Visualization (DSC 106)](https://www.lyft.com/bikes/bay-wheels/system-data)  \| [Slides](https://docs.google.com/presentation/d/1hNOFPd7bQw1D-iSpwT7zq-_DSqr18k_n_WrxHveNPCw/edit) \| [Report](https://github.com/zwcolin/dsc106_final_project/blob/main/106_report.pdf) \| [Code](https://github.com/zwcolin/dsc106_final_project) [May 2021]
+* 🥈 [DataHacks 2021 Advanced Track Solution](https://github.com/zwcolin/Datahacks2021-Advanced) [Apr 2021]
 * 📝 [Final Project Report for ML Algorithm Implementation from Scratch with Numpy (DSC 190)](https://github.com/zwcolin) [Mar 2021][Not publicly available]
 * 📝 [Final Project for Swiss Banknote EDA & ML Pipeline with R (MATH 189)](https://github.com/zwcolin/EDA-ML-with-R-MATH189/blob/main/Final%20Project/finalproj.pdf) [Mar 2021]
 * 🥇 [Champion of Data Mining Challenge in DSC 190](https://www.kaggle.com/c/ucsd-dsc190-wi21-introduction-to-data-mining/leaderboard) \| [Solution](https://github.com/zwcolin/dsc190-kaggle) \| [Slides](https://docs.google.com/presentation/d/1WxgHtFA0XqmbKwXgYtmNk5FQRq42FbVMjAH-fJgcZMo/edit#slide=id.p) [Feb 2021]
@@ -26,7 +27,7 @@ To my friends at UC San Diego, here is my tentative four-year plan with quarter-
 ## 🎓 Current Academic Interests
 
 * 🎵 Generative Models in Audio and Music
-* 📚 NLP Applications
+* 📚 NLP Applications (Text Generation)
 * 📌 Meta Learning
 * 🔧 ML Optimization
 
