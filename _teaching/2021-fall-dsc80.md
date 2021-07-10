@@ -1,5 +1,5 @@
 ---
-title: "Data Science in Practice"
+title: "DSC 80: Data Science in Practice"
 collection: teaching
 type: Fall 2021, Undergraduate, Lower Division
 permalink:
