@@ -9,3 +9,4 @@ location: "Remote"
 ---
 * Title: **Tutor** (alias for Undergraduate Teaching Assistant)
 * Basic ideas about data science - what it is, how do we apply them based on coding and statistics, why do we use data science, and ethics about data science
+* Course Instructor: Justin Eldridge
