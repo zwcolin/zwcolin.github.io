@@ -1,5 +1,5 @@
 ---
-title: "Data Structures and Algorithms for Data Science"
+title: "DSC 30: Data Structures and Algorithms for Data Science"
 collection: teaching
 type: Fall 2021, Undergraduate, Lower Division
 permalink:
