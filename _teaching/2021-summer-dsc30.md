@@ -9,3 +9,4 @@ location: "Remote"
 ---
 * Title: **Tutor** (alias for Undergraduate Teaching Assistant)
 * Intermediate computer science course that teaches students data structures such as stack, queue, trees, hashtables in Java. [Course Website]()
+* Course Instructor: Aaron Fraenkel
