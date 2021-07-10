@@ -1,5 +1,5 @@
 ---
-title: "Principles of Data Science"
+title: "DSC 10: Principles of Data Science"
 collection: teaching
 type: Summer Session I 2021, Undergraduate, Lower Division
 permalink:
