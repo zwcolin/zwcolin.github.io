@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "An ICLR Submission"
+date:   2019-06-04 22:21:59 +00:00
+categories: research
+---
+An ICLR 2023 submission, details to be filled
+
+<!-- image: /images/jcdl2019.png
+author: "Leo Keselman"
+authors: "<strong>Leonid Keselman</strong>"
+venue: "ACM/IEEE Joint Conference on Digital Libraries"
+arxiv: https://arxiv.org/abs/1904.12573
+slides: /pdfs/jcdl2019.pdf
+code: https://github.com/leonidk/venue_scores -->
