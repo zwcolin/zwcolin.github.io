@@ -1,10 +1,15 @@
 ---
 layout: post
-title:  "An ICLR Submission"
-date:   2019-06-04 22:21:59 +00:00
+venue: "Under review as a conference paper"
+title:  "On the Feasibility of Cross-Task Transfer with Model-Based Reinforcement Learning"
+authors: "Yifan Xu*, Nicklas Hansen*, <strong>Zirui Wang</strong>, Yung-Chieh Chan, Hao Su, Zhuowen Tu"
+date:   2022-09-28 00:00:00 +00:00
+code: https://github.com/mlpc-ucsd/XTRA
+website: https://nicklashansen.github.io/xtra/
+arxiv: https://github.com/mlpc-ucsd/XTRA
 categories: research
 ---
-An ICLR 2023 submission, details to be filled
+We investigate whether internal models learned by modern model-based RL algorithms can be leveraged to solve new, distinctly different tasks faster.
 
 <!-- image: /images/jcdl2019.png
 author: "Leo Keselman"
