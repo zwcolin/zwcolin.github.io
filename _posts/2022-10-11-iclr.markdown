@@ -1,6 +1,6 @@
 ---
 layout: post
-animation: /images/Phoenix_new02376.mp4
+animation: /images/Phoenix_new.mp4
 venue: "Under review as a conference paper"
 title:  "On the Feasibility of Cross-Task Transfer with Model-Based Reinforcement Learning"
 authors: "Yifan Xu*, Nicklas Hansen*, <strong>Zirui Wang</strong>, Yung-Chieh Chan, Hao Su, Zhuowen Tu"
