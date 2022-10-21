@@ -126,7 +126,7 @@
             <td style="padding:2.5%;width:100%;vertical-align:middle">
 
               <h2>Teaching</h2>
-              <p>Full lists and details about classes I have served as a teaching assistant in the past. contents to be updated (10/11/2022)
+              <p>Full lists and details about classes I have served as a teaching assistant in the past. Coworker names are listed in alphebatical order based on their first names. Instructor evaluation is attached if available. contents to be updated (10/11/2022)
               </p>
             </td>
           </tr>
@@ -145,14 +145,14 @@
               <br>
               <em>{{post.categories}} {{post.course}}</em>
               <br>
-              {{ post.date | date: "%Y-%m-%d" }}
+              {{post.quarter}}
 
               <br>
               {% if post.website %}
               <a href="{{post.website}}">website</a> /
               {% endif %}
               {% if post.paper %}
-              <a href="{{post.paper}}">paper</a> /
+              <a href="{{post.evaluation}}">paper</a> /
               {% endif %}
               {% if post.patent %}
               <a href="{{post.patent}}">patent</a> /
