@@ -144,15 +144,16 @@
               <h3>{{post.title}}</h3>
               <br>
               <em>{{post.course}} {{post.quarter}}</em>
+              <br>
               Instructors: {{post.instructor}}
               <br>
               Teaching Staff: {{post.staff}}
               <br>
               {% if post.website %}
-              <a href="{{post.website}}">website</a> /
+              <a href="{{post.website}}">website</a>
               {% endif %}
               {% if post.paper %}
-              <a href="{{post.evaluation}}">paper</a> /
+              <a href="{{post.evaluation}}">evaluation</a> /
               {% endif %}
               <p></p>
               {{ post.excerpt }}
