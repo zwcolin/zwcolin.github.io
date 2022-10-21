@@ -2,11 +2,10 @@
 layout: post
 image: /images/dsc30.png
 title:  "Data Structures and Algorithms for Data Science"
-instructor: "Marina Langlois, Aaron Fraenkel"
-staff: "Zirui Wang"
+staff: "Marina Langlois, Aaron Fraenkel; Zirui Wang"
 quarter: "FA21"
 course: "UCSD DSC 30"
 website: https://google.com
 categories: teaching
 ---
-Covering advanced programming techniques including encapsulation, abstract data types, interfaces, algorithms and complexity, and data structures such as stacks, queues, priority queues, heaps, linked lists, binary trees, binary search trees, and hash tables with Java.
+Programming techniques including encapsulation, abstract data types, interfaces, algorithms and complexity, and data structures such as stacks, queues, priority queues, heaps, linked lists, binary trees, binary search trees, and hash tables with Java.
