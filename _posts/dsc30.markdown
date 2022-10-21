@@ -2,7 +2,8 @@
 layout: post
 image: /images/dsc30.png
 title:  "Data Structures and Algorithms for Data Science"
-authors: "Marina Langlois, Aaron Fraenkel; <strong>Zirui Wang</strong>, ..."
+instructor: "Marina Langlois, Aaron Fraenkel"
+staff: "Zirui Wang"
 quarter: "FA21"
 course: "UCSD DSC 30"
 website: https://google.com
