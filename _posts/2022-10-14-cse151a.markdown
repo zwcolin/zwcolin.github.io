@@ -1,0 +1,11 @@
+---
+layout: post
+image: /images/cse151a.png
+title:  "Introduction to Machine Learning"
+staff: "Jingbo Shang; Dheeraj Mekala, Weijian Xu, Xinghan Wang, Yilun Hao, Zhaoyi Hou, Zhenyu Bi, <strong>Zirui Wang</strong>"
+quarter: "SP21"
+course: "UCSD CSE 151A "
+website: https://shangjingbo1226.github.io/teaching/2021-spring-CSE151A-ML
+categories: teaching
+---
+The topics include some topics in supervised learning, such as k-nearest neighbor classifiers, decision trees, boosting, and perceptrons; and topics in unsupervised learning, such as k-means and hierarchical clustering. In addition to the actual algorithms, the course focuses on the principles behind the algorithms.
