@@ -1,6 +1,7 @@
 ---
 layout: post
 image: /images/cogs137.png
+evaluation: /pdfs/cogs137_eval.pdf
 title:  "Practical Data Science in R"
 staff: "Shannon Ellis; Sean Trott, Shubham Kulkarni, <strong>Zirui Wang</strong>"
 quarter: "FA21"

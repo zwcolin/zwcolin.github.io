@@ -1,6 +1,7 @@
 ---
 layout: post
 image: /images/cse151b.png
+evaluation: /pdfs/cse151b_eval.pdf
 title:  "Deep Learning"
 staff: "Gary Cottrell; Eric Yu, Martha Gahl, Rohin Garg, Shubham Kulkarni, Weitang Liu, <strong>Zirui Wang</strong>"
 quarter: "WI22"

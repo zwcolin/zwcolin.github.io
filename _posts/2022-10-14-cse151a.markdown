@@ -1,6 +1,7 @@
 ---
 layout: post
 image: /images/cse151a.png
+evaluation: /pdfs/cse151a_eval.pdf
 title:  "Introduction to Machine Learning"
 staff: "Jingbo Shang; Dheeraj Mekala, Weijian Xu, Xinghan Wang, Yilun Hao, Zhaoyi Hou, Zhenyu Bi, <strong>Zirui Wang</strong>"
 quarter: "SP21"
