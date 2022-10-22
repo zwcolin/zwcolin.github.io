@@ -10,4 +10,4 @@ date:   2022-09-28 00:00:00 +00:00
 code: https://github.com/zwcolin/Domain-Robustness-Prompt-Tuning
 categories: others
 ---
-We investigate whether internal models learned by modern model-based RL algorithms can be leveraged to solve new, distinctly different tasks faster.
+We analyze the robustness of Language Models using prompt tuning and prefix tuning toward a domain shift (i.e. learning a task from data in a specific domain and evaluating that model on the same task, but data is out-of-domain).
