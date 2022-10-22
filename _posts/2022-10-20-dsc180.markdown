@@ -5,6 +5,7 @@ paper: /pdfs/dsc180.pdf
 slides: https://docs.google.com/presentation/d/1s2hvvRhp2HPMBLjl3pwr5IM8hukh-n1tlUC7s6xxh0w/edit#slide=id.p
 title:  "On the Domain Robustness with Prompt & Prefix Tuning"
 authors: "<strong>Zirui Wang</strong>*, Lechuan Wang*, Yutong Luo"
+info: "Data Science Undergraduate Capstone"
 date:   2022-09-28 00:00:00 +00:00
 code: https://github.com/zwcolin/Domain-Robustness-Prompt-Tuning
 categories: others
