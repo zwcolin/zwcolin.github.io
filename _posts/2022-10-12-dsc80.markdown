@@ -1,0 +1,11 @@
+---
+layout: post
+image: /images/dsc10.png
+title:  "Principles of Data Science"
+staff: "Justin Eldridge; Anna Liu, Anqi Wang, Dylan Lee, Jeffrey Chu, Jessica Guzman, Meiwen Liu, Ruojia Tao, Shubham Kaushal, Teresa Lee, Xiaowang Huang, Xuzhe Zhi, Yuanjia Yang, Yi Li, <strong>Zirui Wang</strong>"
+quarter: "S121"
+course: "UCSD DSC 80 "
+website: https://dsc80.com/
+categories: teaching
+---
+Students master the data science life-cycle and learn many of the fundamental principles and techniques of data science spanning algorithms, statistics, machine learning, visualization, and data systems.
