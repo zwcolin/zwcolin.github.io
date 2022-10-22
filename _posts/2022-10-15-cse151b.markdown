@@ -1,0 +1,11 @@
+---
+layout: post
+image: /images/cse151b.png
+title:  "Deep Learning"
+staff: "Gary Cottrell; Eric Yu, Martha Gahl, Rohin Garg, Shubham Kulkarni, Weitang Liu, <strong>Zirui Wang</strong>"
+quarter: "WI22"
+course: "UCSD CSE 151B "
+website: https://catalog.ucsd.edu/courses/CSE.html#cse151b
+categories: teaching
+---
+This course covers the fundamentals of neural networks. We introduce linear regression, logistic regression, perceptrons, multilayer networks and back-propagation, convolutional neural networks, recurrent networks, and deep networks trained by reinforcement learning.
