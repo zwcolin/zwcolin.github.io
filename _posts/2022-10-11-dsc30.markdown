@@ -5,7 +5,7 @@ title:  "Data Structures and Algorithms for Data Science (x4)"
 staff: "Marina Langlois, Aaron Fraenkel, Soohyun Liao; Amy Nguyen, Brian Wang, Huaning Liu, Jeffrey Feng, Kevin Chin, Kunyang Sun, Madeline Tjoa, Sally Poon, Sharmi Mathur, Shasank Bonthala, Shubham Kaushal, Travis Tran, Trinity Pham, Viswesh Uppalapati, Yu-Chieh Chen, Yuanjia Yang, Yung-Chieh Chan, Yuri Bukhradze, Yuru Zhou, Yuxiao Ran, Yuxuan Fan, <strong>Zirui Wang</strong>"
 quarter: "WI21/SP21/S221/FA21"
 course: "UCSD DSC 30 "
-website: https://google.com
+website: https://catalog.ucsd.edu/courses/DSC.html#dsc30
 categories: teaching
 ---
 Programming techniques including encapsulation, abstract data types, interfaces, algorithms and complexity, and data structures such as stacks, queues, priority queues, heaps, linked lists, binary trees, binary search trees, and hash tables with Java.
