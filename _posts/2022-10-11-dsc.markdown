@@ -1,10 +1,10 @@
 ---
 layout: post
 image: /images/dsc30.png
-title:  "Data Structures and Algorithms for Data Science"
-staff: "Marina Langlois, Aaron Fraenkel; Zirui Wang"
-quarter: "FA21"
-course: "UCSD DSC 30"
+title:  "Data Structures and Algorithms for Data Science (x4)"
+staff: "Marina Langlois, Aaron Fraenkel, Soohyun Liao; Amy Nguyen, Brian Wang, Huaning Liu, Jeffrey Feng, Kevin Chin, Kunyang Sun, Madeline Tjoa, Sally Poon, Sharmi Mathur, Shasank Bonthala, Shubham Kaushal, Travis Tran, Trinity Pham, Viswesh Uppalapati, Yu-Chieh Chen, Yuanjia Yang, Yung-Chieh Chan, Yuri Bukhradze, Yuru Zhou, Yuxiao Ran, Yuxuan Fan, <strong>Zirui Wang</strong>"
+quarter: "WI21/SP21/S221/FA21"
+course: "UCSD DSC 30 "
 website: https://google.com
 categories: teaching
 ---
