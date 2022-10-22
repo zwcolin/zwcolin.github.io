@@ -1,0 +1,11 @@
+---
+layout: post
+image: /images/dsc20.png
+title:  "Programming and Basic Data Structures for Data Science (x2)"
+staff: "Marina Langlois; Aaron Chan, Amy Nguyen, Darren Liu, Haihao Sun, Huaning Liu, Huy Trinh, Jacqueline Lee, James Yu, Jeffrey Chu, Jianming Geng, Madeline Tjoa, Ruixuan Zhang, Sharmi Mathur, Shubham Kaushal, Siddharth Saha, Xiangyi Kong, Yijun Liu, Yu-Chieh Chen, Yung-Chieh Chan, Yuri Bukhradze, Yuru Zhou, Yuxiao Ran, Yuxuan Fan, <strong>Zirui Wang</strong>"
+quarter: "FA20/WI21"
+course: "UCSD DSC 20 "
+website: https://catalog.ucsd.edu/courses/DSC.html#dsc20
+categories: teaching
+---
+Programming techniques including recursion, higher-order functions, function composition, object-oriented programming, interpreters, classes, and simple data structures such as arrays, lists, and linked lists.
