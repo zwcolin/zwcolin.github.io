@@ -1,0 +1,11 @@
+---
+layout: post
+image: /images/cogs137.png
+title:  "Practical Data Science in R"
+staff: "Shannon Ellis; Sean Trott, Shubham Kulkarni, <strong>Zirui Wang</strong>"
+quarter: "FA21"
+course: "UCSD COGS 137 "
+website: https://cogs137.github.io/website/
+categories: teaching
+---
+Learn coding for data analysis using the R programming language. Course focus will be on practical and applied skills in asking data-informed questions, data wrangling, data visualization, building statistical learning models, and communication.
