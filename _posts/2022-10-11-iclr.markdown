@@ -4,7 +4,7 @@ image: /images/xtra-small.gif
 venue: "International Conference on Learning Representations (ICLR)"
 title:  "On the Feasibility of Cross-Task Transfer with Model-Based Reinforcement Learning"
 authors: "Yifan Xu*, Nicklas Hansen*, <strong>Zirui Wang</strong>, Yung-Chieh Chan, Hao Su, Zhuowen Tu"
-date:   2022-09-28 00:00:00 +00:00
+date:   2023-01-21 00:00:00 +00:00
 code: https://github.com/mlpc-ucsd/XTRA
 website: https://nicklashansen.github.io/xtra/
 arxiv: https://github.com/mlpc-ucsd/XTRA
