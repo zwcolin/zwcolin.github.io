@@ -3,7 +3,7 @@ layout: post
 image: /images/cogs189.png
 slides: https://docs.google.com/presentation/d/1gWNn4oP39EuuehwDprzVtAX38PpRgd7TR8WpTRARG3s/edit#slide=id.p
 title:  "EEG Transformer"
-authors: "<strong>Zirui Wang</strong>*, Xing Hong, Luning Yang, Annie Fan, Yunyi Huang, Zixin Ma"
+authors: "<strong>Zirui Wang</strong>, Xing Hong, Luning Yang, Annie Fan, Yunyi Huang, Zixin Ma"
 info: "COGS 189: Brain Computer Interfaces, UCSD"
 date:   2022-09-28 00:00:00 +00:00
 code: https://github.com/zwcolin/EEG-Transformer
