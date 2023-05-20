@@ -7,7 +7,7 @@ authors: "Yifan Xu*, Nicklas Hansen*, <strong>Zirui Wang</strong>, Yung-Chieh Ch
 date:   2023-01-21 00:00:00 +00:00
 code: https://github.com/mlpc-ucsd/XTRA
 website: https://nicklashansen.github.io/xtra/
-arxiv: https://github.com/mlpc-ucsd/XTRA
+arxiv: https://arxiv.org/abs/2210.10763
 categories: research
 ---
 We investigate whether internal models learned by modern model-based RL algorithms can be leveraged to solve new, distinctly different tasks faster.
