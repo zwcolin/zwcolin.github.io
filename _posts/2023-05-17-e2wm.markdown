@@ -6,6 +6,7 @@ title:  "Language Models Meet World Models: Embodied Experiences Enhance Languag
 authors: "Jiannan Xiang*, Tianhua Tao*, Yi Gu, Tianmin Shu, <strong>Zirui Wang</strong>, Zichao Yang, Zhiting Hu"
 date:   2023-05-17 00:00:00 +00:00
 arxiv: https://arxiv.org/abs/2305.10626
+code: https://github.com/szxiangjn/world-model-for-language-model
 categories: research
 ---
 We establish a framework that effectively and efficiently finetunes a language model with embodied experience while retaining its language modeling abilities.
