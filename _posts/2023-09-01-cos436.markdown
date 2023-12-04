@@ -1,0 +1,11 @@
+---
+layout: post
+image: /images/cos436.webp
+title:  "Human-Computer Interaction"
+staff: "Andrés Monroy-Hernández, Parastoo Abtahi; Beza Desta, Yuhan Liu, <strong>Zirui Wang</strong>"
+quarter: "FA23"
+course: "Princeton COS 436"
+website: https://docs.google.com/document/d/1PMDjbnO_ThTAg4JNAEr9hFJ_TqFBJG1ChqafjaldM-U/edit
+categories: teaching
+---
+Project-based class where students are introduced with basics of HCI and either conduct a study-based (e.g., survey + interviews) project or a system-based (e.g., implementations) project. I lead HCI + AI domain.
