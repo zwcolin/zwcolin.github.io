@@ -1,0 +1,13 @@
+---
+layout: post
+image: /images/sit.png
+venue: "Preprint"
+title:  "SIT Back and Watch: Screenshot Language Models with Image and Text Dual Prediction"
+authors: "Tianyu Gao, <strong>Zirui Wang</strong>, Adithya Bhaskar, Danqi Chen"
+date:   2024-02-01 00:00:00 +00:00
+code: "https://princeton-nlp.github.io/"
+website: "https://princeton-nlp.github.io/"
+arxiv: "https://princeton-nlp.github.io/"
+categories: research
+---
+We close the performance gap between *screenshot* Language Models and text-only Language Models on language understanding tasks with our SIT objective.
