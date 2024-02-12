@@ -1,6 +1,6 @@
 ---
 layout: post
-image: /images/omnicontrolnet.png
+image: /images/bdm3d.png
 venue: "Under conference review"
 title:  "Bayesian Diffusion Models for 3D Shape Reconstruction"
 authors: Haiyang Xu*, Yu Lei*, Zeyuan Chen, Xiang Zhang, Yue Zhao, <strong>Zirui Wang</strong>, Yilin Wang, Zhuowen Tu
