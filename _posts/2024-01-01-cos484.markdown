@@ -1,0 +1,11 @@
+---
+layout: post
+image: /images/pnlp.png
+title:  "NLP"
+staff: "Karthik Narasimhan; Anika Maskara, Ben Shi, Evan Wang, Howard Yen, Yash Parikh, Yihan Wang, Zachary Siegel, <strong>Zirui Wang</strong>"
+quarter: "SP24"
+course: "Princeton COS 484"
+website: https://princeton-nlp.github.io/cos484/
+categories: teaching
+---
+An introductory class about Natural Language Processing. Topics covered include language modeling, representation learning, text classification, sequence tagging, machine translation, Transformers, and others.
