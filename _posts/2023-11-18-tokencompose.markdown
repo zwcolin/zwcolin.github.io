@@ -1,7 +1,7 @@
 ---
 layout: post
 image: /images/tokencompose.png
-venue: "Computer Vision and Pattern Recognition"
+venue: "Computer Vision and Pattern Recognition (<strong>CVPR</strong>)"
 title:  "TokenCompose: Grounding Diffusion with Token-level Supervision"
 authors: "<strong>Zirui Wang</strong>, Zhizhou Sha, Zheng Ding, Yilin Wang, Zhuowen Tu"
 date:   2023-11-18 00:00:00 +00:00

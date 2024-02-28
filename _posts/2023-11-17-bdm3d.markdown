@@ -1,7 +1,7 @@
 ---
 layout: post
 image: /images/bdm3d.png
-venue: "Computer Vision and Pattern Recognition"
+venue: "Computer Vision and Pattern Recognition (<strong>CVPR</strong>)"
 title:  "Bayesian Diffusion Models for 3D Shape Reconstruction"
 authors: Haiyang Xu*, Yu Lei*, Zeyuan Chen, Xiang Zhang, Yue Zhao, <strong>Zirui Wang</strong>, Yilin Wang, Zhuowen Tu
 date:   2023-11-17 00:00:00 +00:00

@@ -1,7 +1,7 @@
 ---
 layout: post
 image: /images/e2wm.png
-venue: "Neural Information Processing Systems (NeurIPS)"
+venue: "Neural Information Processing Systems (<strong>NeurIPS</strong>)"
 title:  "Language Models Meet World Models: Embodied Experiences Enhance Language Models"
 authors: "Jiannan Xiang*, Tianhua Tao*, Yi Gu, Tianmin Shu, <strong>Zirui Wang</strong>, Zichao Yang, Zhiting Hu"
 date:   2023-05-17 00:00:00 +00:00
