@@ -3,7 +3,7 @@ layout: post
 image: /images/sit.png
 venue: "Preprint"
 title:  "Improving Language Understanding from Screenshots"
-authors: "<a href="https://gaotianyu.xyz/about/">Tianyu Gao</a>, <strong>Zirui Wang</strong>, <a href="https://adithyabh.github.io/">Adithya Bhaskar</a>, <a href="https://www.cs.princeton.edu/~danqic/">Danqi Chen</a>"
+authors: <a href="https://gaotianyu.xyz/about/">Tianyu Gao</a>, <strong>Zirui Wang</strong>, <a href="https://adithyabh.github.io/">Adithya Bhaskar</a>, <a href="https://www.cs.princeton.edu/~danqic/">Danqi Chen</a>
 date:   2024-02-02 00:00:00 +00:00
 code: "https://github.com/princeton-nlp/PTP"
 website: "https://princeton-nlp.github.io/"
