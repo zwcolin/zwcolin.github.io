@@ -3,11 +3,11 @@ layout: post
 image: /images/sit.png
 venue: "Preprint"
 title:  "Improving Language Understanding from Screenshots"
-authors: "Tianyu Gao, <strong>Zirui Wang</strong>, Adithya Bhaskar, Danqi Chen"
+authors: "<a href="https://gaotianyu.xyz/about/">Tianyu Gao</a>, <strong>Zirui Wang</strong>, <a href="https://adithyabh.github.io/">Adithya Bhaskar</a>, <a href="https://www.cs.princeton.edu/~danqic/">Danqi Chen</a>"
 date:   2024-02-02 00:00:00 +00:00
-code: "https://princeton-nlp.github.io/"
+code: "https://github.com/princeton-nlp/PTP"
 website: "https://princeton-nlp.github.io/"
-arxiv: "https://princeton-nlp.github.io/"
+arxiv: "https://arxiv.org/abs/2402.14073"
 categories: research
 ---
-We close the performance gap between *screenshot* Language Models and text-only Language Models on language understanding tasks with our SIT objective.
+We close the performance gap between *screenshot* Language Models and text-only Language Models on language understanding tasks with our PTP objective.

@@ -5,9 +5,9 @@ venue: "Preprint"
 title:  "Language Models as Science Tutors"
 authors: "Alexis Chevalier, Jiayi Geng, Alexander Wettig, Howard Chen, Sebastian Mizera, Simon Machado, Arturo Rodriguez Fanlo, Simon Frieder, <strong>Zirui Wang</strong>, Akshara Prabhakar, Jiachen T. Wang, Xindi Wu, Mengzhou Xia, Wenhan Xia, Jiatong Yu, Ellie Thieu, Max Aragon, Zhiyong Ren, Junjie Zhu, Toni Annala, Sanjeev Arora, Danqi Chen"
 date:   2024-02-01 00:00:00 +00:00
-code: "https://princeton-nlp.github.io/"
+code: "https://github.com/princeton-nlp/LM-Science-Tutor"
 website: "https://princeton-nlp.github.io/"
-arxiv: "https://princeton-nlp.github.io/"
+arxiv: "https://arxiv.org/abs/2402.11111"
 categories: research
 ---
 We propose TutorChat and TutorEval, a dataset of long synthetic dialogues about textbooks and a question-ansering benchmark consisting questions about long chapters from STEM textbooks written by human experts.
