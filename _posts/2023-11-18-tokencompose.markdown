@@ -3,7 +3,7 @@ layout: post
 image: /images/tokencompose.png
 venue: "Computer Vision and Pattern Recognition (<strong>CVPR</strong>)"
 title:  "TokenCompose: Grounding Diffusion with Token-level Supervision"
-authors: <strong>Zirui Wang</strong>, <a href="https://jamessand.github.io/">Zhizhou Sha</a>, <a href="https://www.linkedin.com/in/zheng-ding-224b3122b/">Zheng Ding</a>, <a href="https://iiis.tsinghua.edu.cn/en/yaoclass/>Yilin Wang</a>, <a href="https://pages.ucsd.edu/~ztu/">Zhuowen Tu</a>
+authors: <strong>Zirui Wang</strong>, <a href="https://jamessand.github.io/">Zhizhou Sha</a>, <a href="https://www.linkedin.com/in/zheng-ding-224b3122b/">Zheng Ding</a>, <a href="https://iiis.tsinghua.edu.cn/en/yaoclass/">Yilin Wang</a>, <a href="https://pages.ucsd.edu/~ztu/">Zhuowen Tu</a>
 date:   2024-01-01 00:00:00 +00:00
 code: "https://github.com/mlpc-ucsd/TokenCompose"
 website: "https://mlpc-ucsd.github.io/TokenCompose/"
