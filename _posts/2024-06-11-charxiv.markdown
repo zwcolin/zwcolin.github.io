@@ -7,6 +7,7 @@ authors: <strong>Zirui Wang</strong>, Mengzhou Xia, Luxi He, Howard Chen, Yitao 
 date:   2024-06-11 00:00:00 +00:00
 code: "https://github.com/princeton-nlp/charxiv"
 website: "https://charxiv.github.io/"
+arxiv: "https://charxiv.github.io/"
 categories: research
 ---
 CharXiv reveals significant shortcomings in MLLMs' chart understanding, showing a large performance gap between models and humans.
