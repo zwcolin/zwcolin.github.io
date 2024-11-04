@@ -1,7 +1,7 @@
 ---
 layout: post
 image: /images/charxiv.png
-venue: "Neural Information Processing Systems (<strong>NeurIPS</strong>)"
+venue: "Neural Information Processing Systems (<strong>NeurIPS</strong>)<br>NeurIPS Workshop on Multimodal Algorithmic Reasoning (<strong><span style='color:red;'>Spotlight</span></strong>)<br>ECCV Workshop on Emergent Visual Abilities and Limits of Foundation Models"
 title:  "CharXiv: Charting Gaps in Realistic Chart Understanding in Multimodal LLMs"
 authors: <strong>Zirui Wang</strong>, Mengzhou Xia, Luxi He, Howard Chen, Yitao Liu, Richard Zhu, Kaiqu Liang, Xindi Wu, Haotian Liu, Sadhika Malladi, Alexis Chevalier, Sanjeev Arora, Danqi Chen
 date:   2024-06-11 00:00:00 +00:00
