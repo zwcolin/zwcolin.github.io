@@ -1,0 +1,11 @@
+---
+layout: post
+image: /images/visgym.png
+venue: "Research preview"
+title:  "VisGym: Diverse, Customizable, Scalable Environments for Multimodal Agents"
+authors: <strong>Zirui Wang*</strong>, Junyi Zhang*, Jiaxin Ge*, Long Lian, Letian Fu, Lisa Dunlap, Ken Goldberg, Xudong Wang, Ion Stoica, David M. Chan, Sewon Min, Joseph E. Gonzalez
+date:   2025-11-24 00:00:00 +00:00
+arxiv: "/pdfs/VisGym-Preview.pdf"
+categories: research
+---
+We introduce VisGym, a gymnasium of 17 environments for evaluating and training VLMs. The suite spans symbolic puzzles, real-image understanding, navigation, and manipulation, and provides flexible controls over difficulty, input representation, planning horizon, and feedback.
