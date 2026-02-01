@@ -33,8 +33,8 @@ body {
   padding: 0px;
   background-color: #f9f9f9;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 17px;
+  line-height: 1.6;
   font-weight: 300;
   color: #111;
   -webkit-text-size-adjust: 100%;
@@ -48,7 +48,7 @@ tr,
 p,
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 h1 {
@@ -461,7 +461,7 @@ a:hover {
 
 .pub-right > .title {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 18px;
   margin-bottom: 5px;
   color: #111;
 }
@@ -470,7 +470,7 @@ a:hover {
   color: #555;
   font-weight: 400;
   margin-bottom: 5px;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .pub-right > .authors strong {
@@ -484,7 +484,7 @@ a:hover {
 
 .pub-right > .publish > .publisher {
   color: #666;
-  font-size: 14px;
+  font-size: 15px;
   font-style: italic;
 }
 
@@ -495,14 +495,14 @@ a:hover {
 .pub-right > .tags a {
   color: #2a7ae2;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 15px;
   margin-right: 8px;
 }
 
 
 .pub-right > .desc > p {
   margin: 8px 0px;
-  font-size: 14px;
+  font-size: 15px;
   color: #555;
   text-align: justify;
 }
@@ -557,7 +557,7 @@ a:hover {
 /* Responsive adjustments */
 @media screen and (max-width: 600px) {
   body {
-    font-size: 14px;
+    font-size: 15px;
   }
   
   h1 {
