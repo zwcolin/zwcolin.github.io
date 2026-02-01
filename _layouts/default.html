@@ -245,21 +245,12 @@
       var content = document.getElementById(contentId);
       var icon = document.getElementById(contentId.replace('-content', '-icon'));
       
-      if (content.style.display === "none") {
+      if (content.style.display === "none" || content.style.display === "") {
         content.style.display = "block";
-        // Trigger animation
-        setTimeout(function() {
-          content.style.maxHeight = content.scrollHeight + "px";
-          content.style.opacity = "1";
-        }, 10);
         icon.classList.remove('fa-chevron-right');
         icon.classList.add('fa-chevron-down');
       } else {
-        content.style.maxHeight = "0";
-        content.style.opacity = "0";
-        setTimeout(function() {
-          content.style.display = "none";
-        }, 200);
+        content.style.display = "none";
         icon.classList.remove('fa-chevron-down');
         icon.classList.add('fa-chevron-right');
       }
@@ -270,9 +261,8 @@
       nav.classList.toggle('show');
     }
 
-    // Smooth scrolling for navigation links
+    // Navigation link handling
     document.addEventListener('DOMContentLoaded', function() {
-      // Close menu when clicking a link
       var links = document.querySelectorAll('.page-link');
       links.forEach(function(link) {
         link.addEventListener('click', function(e) {
@@ -284,42 +274,11 @@
           
           if (targetElement) {
             targetElement.scrollIntoView({
-              behavior: 'smooth',
               block: 'start'
             });
           }
         });
       });
-
-      // Fade-in animation on scroll
-      function revealOnScroll() {
-        var reveals = document.querySelectorAll('.pub, .bio');
-        
-        for (var i = 0; i < reveals.length; i++) {
-          var windowHeight = window.innerHeight;
-          var revealTop = reveals[i].getBoundingClientRect().top;
-          var revealPoint = 100;
-          
-          if (revealTop < windowHeight - revealPoint) {
-            reveals[i].classList.add('animate-in');
-          }
-        }
-      }
-      
-      // Initial reveal
-      setTimeout(revealOnScroll, 50);
-      
-      // Reveal on scroll
-      window.addEventListener('scroll', revealOnScroll);
-      
-      // Animate profile card on load
-      setTimeout(function() {
-        var profileCard = document.getElementById('profile-namecard');
-        if (profileCard) {
-          profileCard.style.opacity = '1';
-          profileCard.style.transform = 'translateY(0)';
-        }
-      }, 100);
     });
   </script>
 

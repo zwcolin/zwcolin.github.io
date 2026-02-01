@@ -24,7 +24,6 @@ figure {
 
 html {
   width: 100%;
-  scroll-behavior: smooth;
 }
 
 body {
@@ -39,38 +38,6 @@ body {
   font-weight: 300;
   color: #111;
   -webkit-text-size-adjust: 100%;
-}
-
-/* Animations */
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes slideDown {
-  from {
-    max-height: 0;
-    opacity: 0;
-  }
-  to {
-    max-height: 1000px;
-    opacity: 1;
-  }
 }
 
 /* Typography */
@@ -155,7 +122,6 @@ a:hover {
   top: 10px;
   right: 10px;
   z-index: 1000;
-  animation: fadeIn 0.3s ease;
 }
 
 .menu-toggle {
@@ -168,16 +134,11 @@ a:hover {
   font-size: 20px;
   color: #333;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  transition: all 0.2s ease;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.menu-toggle:hover {
-  background-color: #f5f5f5;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-}
 
 .site-nav {
   position: absolute;
@@ -191,30 +152,20 @@ a:hover {
   min-width: 200px;
   display: none;
   flex-direction: column;
-  opacity: 0;
-  transform: translateY(-10px);
-  transition: opacity 0.2s ease, transform 0.2s ease;
 }
 
 .site-nav.show {
   display: flex;
-  animation: fadeInUp 0.2s ease forwards;
 }
 
 .site-nav .page-link {
   font-weight: 400;
   color: #333;
   padding: 12px 20px;
-  transition: all 0.2s ease;
   display: block;
   text-align: left;
 }
 
-.site-nav .page-link:hover {
-  background-color: #f5f5f5;
-  color: #2a7ae2;
-  text-decoration: none;
-}
 
 /* Hero Section / Profile Cover */
 .cover {
@@ -249,9 +200,6 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.4s ease, transform 0.4s ease;
 }
 
 @media screen and (max-width: 600px) {
@@ -361,14 +309,11 @@ a:hover {
   position: relative;
   text-align: center;
   width: 3.6rem;
-  transition: all 0.2s ease;
   border: 2px solid rgba(255, 255, 255, 0.3);
 }
 
 .icon-button:hover {
-  transform: translateY(-5px) scale(1.1);
   background-color: rgba(255, 255, 255, 0.3);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   border-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -396,7 +341,6 @@ a:hover {
   line-height: 3.6rem;
   position: absolute;
   top: 0;
-  transition: all 0.2s;
   width: 3.6rem;
   z-index: 10;
 }
@@ -417,7 +361,6 @@ a:hover {
 /* Page Content */
 .page-content {
   padding: 30px 0;
-  animation: fadeIn 0.4s ease;
 }
 
 /* Bio/About Section */
@@ -427,14 +370,6 @@ a:hover {
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.3s ease, transform 0.3s ease;
-}
-
-.bio.animate-in {
-  opacity: 1;
-  transform: translateY(0);
 }
 
 .bio-body {
@@ -478,29 +413,7 @@ a:hover {
   margin-right: -15px;
   border-bottom: 1px solid #e8e8e8;
   border-radius: 8px;
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.3s ease, transform 0.3s ease, background-color 0.2s ease;
 }
-
-.pub:hover {
-  background-color: #fafafa;
-}
-
-.pub.animate-in {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-/* Staggered animation for publications */
-.pub:nth-child(1) { transition-delay: 0.05s; }
-.pub:nth-child(2) { transition-delay: 0.1s; }
-.pub:nth-child(3) { transition-delay: 0.15s; }
-.pub:nth-child(4) { transition-delay: 0.2s; }
-.pub:nth-child(5) { transition-delay: 0.25s; }
-.pub:nth-child(6) { transition-delay: 0.3s; }
-.pub:nth-child(7) { transition-delay: 0.35s; }
-.pub:nth-child(8) { transition-delay: 0.4s; }
 
 .pub-left {
   float: left;
@@ -548,11 +461,6 @@ a:hover {
   font-size: 16px;
   margin-bottom: 5px;
   color: #111;
-  transition: color 0.2s ease;
-}
-
-.pub:hover .pub-right > .title {
-  color: #2a7ae2;
 }
 
 .pub-right > .authors {
@@ -588,10 +496,6 @@ a:hover {
   margin-right: 8px;
 }
 
-.pub-right > .tags a:hover {
-  color: #9b3022;
-  text-decoration: none;
-}
 
 .pub-right > .desc > p {
   margin: 8px 0px;
@@ -671,25 +575,17 @@ a:hover {
   cursor: pointer;
   user-select: none;
   position: relative;
-  transition: color 0.2s ease;
 }
 
-.collapsible-header:hover {
-  color: #2a7ae2;
-}
 
 .toggle-icon {
   float: right;
   font-size: 18px;
-  transition: transform 0.2s ease;
 }
 
 .collapsible-content {
   display: block;
   overflow: hidden;
-  max-height: 0;
-  opacity: 0;
-  transition: max-height 0.3s ease, opacity 0.3s ease;
 }
 
 /* Utility Classes */
