@@ -1,0 +1,10 @@
+---
+layout: post
+image: /images/polylith.png
+venue: "Preprint"
+title:  "The Wealth of Agents: From Monolithic to Polylithic Systems"
+authors: Austin W. Hanjie, Carlos E. Jimenez, <strong>Zirui Wang</strong>, Karthik R. Narasimhan
+date:   2026-01-30 00:00:00 +00:00
+categories: research
+---
+We introduce polylithic systems, where independent producers contribute specialized capabilities to a shared agentic system. Our experiments show that coordinated specialists from multiple producers outperform monolithic generalists, and even small producers that underperform in isolation can improve the overall system by 5–13%.

@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -13,242 +13,262 @@
   <title>{{ site.name }}</title>
 
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-
   <meta name="author" content="{{ site.name }}" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 </head>
 
 
 
 <body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-    <tr style="padding:0px">
-      <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr style="padding:0px">
-            <td style="padding:2.5%;width:60%;vertical-align:middle">
-              <h1>
-                Zirui "Colin" Wang
-              </h1>
-              <p>I am a Ph.D. student in <a href="https://eecs.berkeley.edu/">EECS</a> at <a href="https://www.berkeley.edu/">UC Berkeley</a>. My research is advised by <a href="https://people.eecs.berkeley.edu/~jegonzal/">Prof. Joseph Gonzalez</a>, <a href="https://people.eecs.berkeley.edu/~trevor/">Prof. Trevor Darrell</a> and <a href="https://people.eecs.berkeley.edu/~istoica/">Prof. Ion Stoica</a>. I am interested in grounded decision making, reasoning and planning in large multimodal models. My research has been adopted and cited by multiple frontier vision-language models, including OpenAI GPT-series, Google Gemini, and Qwen-VL.
-              </p>
-              <p>I work as a Member of Technical Staff at <a href="https://www.voio.com/">Voio, Inc</a>, where I co-lead post-training of vision-language models for medical report generation, segmentation, and interactive decision-making.
-              </p>
-              <p>
-              Previously, I obtained B.S. in Data Science at the <a href="https://datascience.ucsd.edu/">Halicioglu Data Science Institute (HDSI)</a> and B.A. in Cognitive Science at the <a href="https://cogsci.ucsd.edu/">CogSci Department</a> at the <a href="https://www.ucsd.edu/">University of California, San Diego (UCSD)</a>. I was advised by <a href="https://pages.ucsd.edu/~ztu/">Prof. Zhuowen Tu</a> and <a href="http://zhiting.ucsd.edu/">Prof. Zhiting Hu</a> for generative models in computer vision during my undergraduate years. I obtained my M.S.E. in Computer Science at <a href="https://www.princeton.edu/">Princeton University</a>, advised by <a href="https://www.cs.princeton.edu/~danqic/">Prof. Danqi Chen</a> where I worked on multimodal pre-training, reasoning and evaluation.
-              </p>
-              <p style="text-align:center">
-                <a target="_blank" href="mailto:zwcolin@eecs.berkeley.edu"> Email</a> &nbsp;/&nbsp;
-                <a href="https://zwcolin.github.io">Resume</a> &nbsp;/&nbsp;
-                <a href="https://zwcolin.github.io">CV</a> &nbsp;/&nbsp;
-                <a href="https://github.com/zwcolin">GitHub</a> &nbsp;/&nbsp;
-                <a href="https://twitter.com/zwcolin">Twitter</a> &nbsp;/&nbsp;
-                <a href="https://scholar.google.com/citations?hl=en&user=xfnk-58AAAAJ">Google Scholar</a> &nbsp;/&nbsp;
-                <a href="https://www.linkedin.com/in/zwcolin"> LinkedIn </a>
-              </p>
-            </td>
-            <td style="padding:2.5%;width:40%;max-width:40%">
-              <img style="width:100%;max-width:100%" alt="profile photo" src="images/photo_cropped.png">
-            </td>
-          </tr>
-        </table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Research</h2>
-              <p></p>
-            </td>
-          </tr>
-        </table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <!-- Navigation -->
+  <header class="site-header">
+    <div class="wrapper">
+      <button class="menu-toggle" onclick="toggleMenu()" aria-label="Toggle menu">
+        <i class="fas fa-bars"></i>
+      </button>
+      <nav class="site-nav" id="main-nav">
+        <a class="page-link" href="#biography">Biography</a>
+        <a class="page-link" href="#research">Publications</a>
+        <a class="page-link" href="#teaching">Teaching</a>
+        <a class="page-link" href="#services">Services</a>
+        <a class="page-link" href="#misc">Misc</a>
+      </nav>
+    </div>
+  </header>
 
+  <!-- Hero Section with Profile Card -->
+  <div class="cover shallow-bg" id="profile-cover">
+    <div class="profile-wrapper wrapper-light" id="profile-namecard">
+      <div class="profile-col profile-col-1">
+        <div id="my-pic">
+          <img id="profile-avatar" class="circle-img border-dark" src="images/photo_cropped.png" alt="Profile Picture">
+        </div>
+      </div>
+      <div class="profile-col profile-col-2">
+        <div id="my-contact">
+          <p id="my-name">Zirui "Colin" Wang</p>
+          <p id="my-title">Ph.D. Student, UC Berkeley</p>
+          <p id="my-email">zwcolin [at] eecs.berkeley [dot] edu</p>
+          
+          <div style="margin-top: 15px;">
+            <a href="https://scholar.google.com/citations?hl=en&user=xfnk-58AAAAJ" class="icon-button" title="Google Scholar" target="_blank">
+              <span class="linkedin"></span>
+              <i class="fas fa-graduation-cap icon-linkedin"></i>
+            </a>
+            <a href="https://github.com/zwcolin" class="icon-button" title="GitHub" target="_blank">
+              <span class="github"></span>
+              <i class="fab fa-github icon-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/zwcolin" class="icon-button" title="LinkedIn" target="_blank">
+              <span class="linkedin"></span>
+              <i class="fab fa-linkedin-in icon-linkedin"></i>
+            </a>
+            <a href="https://twitter.com/zwcolin" class="icon-button" title="Twitter" target="_blank">
+              <span class="twitter"></span>
+              <i class="fab fa-twitter icon-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="page-content">
+    <div class="wrapper">
+      <!-- Biography Section -->
+      <div class="bio" id="biography">
+        <h2><i class="fas fa-user"></i> About</h2>
+        <div class="bio-body">
+          <p>I am a first-year Ph.D. student in <a href="https://eecs.berkeley.edu/">EECS</a> at <a href="https://www.berkeley.edu/">UC Berkeley</a>. My research is advised by <a href="https://people.eecs.berkeley.edu/~jegonzal/">Prof. Joseph Gonzalez</a>, <a href="https://people.eecs.berkeley.edu/~trevor/">Prof. Trevor Darrell</a> and <a href="https://people.eecs.berkeley.edu/~istoica/">Prof. Ion Stoica</a>. I am interested in <strong>multimodal interactive intelligence</strong>. I work as a Member of Technical Staff at <a href="https://www.voio.com/">Voio, Inc</a>, where I co-lead multimodal post-training for vision-language models to understand and reason about volumetric radiology scans. I am an incoming research scientist intern at <a href="https://www.meta.ai/">Meta Superintelligence Lab</a> in summer 2026.</p>
+          
+          <p>Previously, I obtained B.S. in Data Science at the <a href="https://datascience.ucsd.edu/">Halicioglu Data Science Institute (HDSI)</a> and B.A. in Cognitive Science at the <a href="https://cogsci.ucsd.edu/">CogSci Department</a> at the <a href="https://www.ucsd.edu/">University of California, San Diego (UCSD)</a>. I was advised by <a href="https://pages.ucsd.edu/~ztu/">Prof. Zhuowen Tu</a> and <a href="http://zhiting.ucsd.edu/">Prof. Zhiting Hu</a> for <strong>generative models in computer vision</strong> during my undergraduate years. I obtained my M.S.E. in Computer Science at <a href="https://www.princeton.edu/">Princeton University</a>, advised by <a href="https://www.cs.princeton.edu/~danqic/">Prof. Danqi Chen</a> where I worked on <strong>multimodal pre-training, reasoning and evaluation</strong>. I am a recipient of <a href="https://www.siebelscholars.com/scholar-profile/3842/">Siebel Scholar, Class of 2025</a> in Computer Science.</p>
+        </div>
+      </div>
+
+      <!-- Research/Publications Section -->
+      <div class="publications" id="research">
+        <h2><i class="fas fa-file-alt"></i> Publications</h2>
+        <div class="pub-list">
           {% for post in site.posts %}
           {% for cat in post.categories %}
           {% if cat == 'research' %}
-          <tr>
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+          <div class="pub">
+            <div class="pub-left">
               {% if post.image %}
-              <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+              <img class="intro-img" src="{{post.image}}" alt="{{post.title}}" />
               {% endif %}
 
               {% if post.animation %}
-              <video width="100%" height="100%" muted autoplay loop>
+              <video width="280" muted autoplay loop style="border: 2px solid #9b3022;">
                 <source src="{{post.animation}}" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
               {% endif %}
-            </td>
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
-              <br>
-              {{post.authors}}
-
-              <br>
-              <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
-              <br>
-              {% if post.arxiv %}
-              <a href="{{post.website}}">website</a> /
-              {% endif %}
-              {% if post.arxiv %}
-              <a href="{{post.arxiv}}">arxiv</a> /
-              {% endif %}
-              {% if post.video %}
-              <a href="{{post.video}}">video</a> /
-              {% endif %}
-              {% if post.code %}
-              <a href="{{post.code}}">code</a> 
-              {% endif %}
-              {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
-              {% endif %}
-              {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
-              {% endif %}
-              <p></p>
-              {{ post.excerpt }}
-            </td>
-          </tr>
+            </div>
+            <div class="pub-right">
+              <div class="title"><strong>{{post.title}}</strong></div>
+              <div class="authors">{{post.authors}}</div>
+              <div class="publish">
+                <span class="publisher"><em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}</span>
+              </div>
+              <div class="tags">
+                {% if post.website %}
+                <a href="{{post.website}}">[Website]</a>
+                {% endif %}
+                {% if post.arxiv %}
+                <a href="{{post.arxiv}}">[Paper]</a>
+                {% endif %}
+                {% if post.video %}
+                <a href="{{post.video}}">[Video]</a>
+                {% endif %}
+                {% if post.code %}
+                <a href="{{post.code}}">[Code]</a>
+                {% endif %}
+                {% if post.poster %}
+                <a href="{{post.poster}}">[Poster]</a>
+                {% endif %}
+                {% if post.slides %}
+                <a href="{{post.slides}}">[Slides]</a>
+                {% endif %}
+              </div>
+              <div class="desc">
+                <p>{{ post.excerpt }}</p>
+              </div>
+            </div>
+          </div>
           {% endif %}
           {% endfor %}
           {% endfor %}
-        </table>
-        <br>
-        <br>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Services</h2>
-              <ul>
-                <li>ICML: Reviewer (2024, 2025, 2026)</li>
-                <li>ICLR: Reviewer (2024, 2025)</li>
-                <li>NeurIPS: Reviewer (2024, 2025)</li>
-                <li>ACL: Reviewer (2025)</li>
-                <li>CVPR: Reviewer (2025)</li>
-                <li>AAAI: Reviewer (2026)</li>
-              </ul>
-            </td>
-          </tr>
-        </table>
-        <br>
-        <br>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Teaching</h2>
-              <p>Full lists and details about classes I have served as a teaching assistant in the past. Instructor names are listed based on the time I worked with them. Staff names are listed in alphebatical order based on their first names. Instructor names and staff names are separated by a semicolon. Instructor evaluation is attached if available.
-              </p>
-            </td>
-          </tr>
-        </table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        </div>
+      </div>
+      <!-- Services Section -->
+      <div class="bio" id="services">
+        <h2><i class="fas fa-hands-helping"></i> Services</h2>
+        <div class="bio-body">
+          <p><strong>📝 Conference Reviewer:</strong></p>
+          <ul style="margin-bottom: 10px;">
+            <li>International Conference on Machine Learning (<strong>ICML</strong>): 2024, 2025</li>
+            <li>International Conference on Learning Representations (<strong>ICLR</strong>): 2024, 2025</li>
+            <li>Conference on Neural Information Processing Systems (<strong>NeurIPS</strong>): 2024 🏆*, 2025</li>
+            <li>Association for Computational Linguistics (<strong>ACL</strong>): 2025</li>
+            <li>Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>): 2025</li>
+            <li>Association for the Advancement of Artificial Intelligence (<strong>AAAI</strong>): 2026</li>
+          </ul>
+          <p style="font-size: 12px; color: #666; margin-left: 20px;">* Outstanding Reviewer</p>
+          <p><strong>🎓 Alumni Interviewer:</strong></p>
+          <ul>
+            <li>Princeton University, Class of 2030: 2026</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Teaching Section -->
+      <div class="publications" id="teaching">
+        <h2 class="collapsible-header" onclick="toggleSection('teaching-content')">
+          <i class="fas fa-chalkboard-teacher"></i> Teaching
+          <i class="fas fa-chevron-right toggle-icon" id="teaching-icon"></i>
+        </h2>
+        <div class="collapsible-content" id="teaching-content" style="display: none;">
+          <p style="margin-bottom: 15px;">Full lists and details about classes I have served as a teaching assistant in the past. Instructor names are listed based on the time I worked with them. Staff names are listed in alphabetical order based on their first names. Instructor names and staff names are separated by a semicolon. Instructor evaluation is attached if available.</p>
+          <div class="pub-list">
+            {% for post in site.posts %}
+            {% for cat in post.categories %}
+            {% if cat == 'teaching' %}
+            <div class="pub">
+              <div class="pub-left">
+                <img class="intro-img" src="{{post.image}}" alt="{{post.title}}" />
+              </div>
+              <div class="pub-right">
+                <div class="title"><strong>{{post.title}}</strong></div>
+                <div class="authors">{{post.staff}}</div>
+                <div class="publish">
+                  <span class="publisher"><em>{{post.course}} {{post.quarter}}</em></span>
+                </div>
+                <div class="tags">
+                  {% if post.evaluation %}
+                  <a href="{{post.evaluation}}">[Evaluation]</a>
+                  {% endif %}
+                  {% if post.website %}
+                  <a href="{{post.website}}">[Website]</a>
+                  {% endif %}
+                </div>
+                <div class="desc">
+                  <p>{{ post.excerpt }}</p>
+                </div>
+              </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
 
-          {% for post in site.posts %}
-          {% for cat in post.categories %}
-          {% if cat == 'teaching' %}
-          <tr>
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="{{post.image}}" alt="teaching image" style="width:auto; height:auto; max-width:100%;" />
-            </td>
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
-              <br>
-              {{post.staff}}
-              <br>
-              <em>{{post.course}} {{post.quarter}}</em>
-              <br>
-              {% if post.evaluation %}
-              <a href="{{post.evaluation}}">evaluation</a> /
-              {% endif %}
-              {% if post.website %}
-              <a href="{{post.website}}">website</a>
-              {% endif %}
-              <p></p>
-              {{ post.excerpt }}
-            </td>
-          </tr>
-          {% endif %}
-          {% endfor %}
-          {% endfor %}
-        </table>
-        <br>
-        <br>
-        <br>
-        
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Other Projects</h2>
-              <p> These include courseworks, projects and other research-related work not for publishing. contents to be updated (10/11/2022). To remind myself what to put: DSC180 Capstone, DSC190 DataMining, COGS 108, MATH 189, DSC 102, DSC 106, COGS 189, DataHacks Adv, DataHacks Bus, Tencent, SS (CMU)
-              </p>
-            </td>
-          </tr>
-        </table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+      <!-- Misc Section -->
+      <div class="bio" id="misc">
+        <h2><i class="fas fa-lightbulb"></i> Misc</h2>
+        <div class="bio-body">
+          <ul>
+            <li>🏋️ I compete in powerlifting at 82.5kg. The physique? Just what happens when you spend too much time under a barbell.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 
-          {% for post in site.posts %}
-          {% for cat in post.categories %}
-          {% if cat == 'others' %}
-          <tr>
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
-            </td>
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
-              <br>
-              {{post.authors}}
-              <br>
-              <em>{{post.info}}</em>, {{ post.date | date: "%Y" }}
-              <br>
-              {% if post.website %}
-              <a href="{{post.website}}">website</a> /
-              {% endif %}
-              {% if post.paper %}
-              <a href="{{post.paper}}">paper</a> /
-              {% endif %}
-              {% if post.report %}
-              <a href="{{post.report}}">report</a> /
-              {% endif %}
-              {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
-              {% endif %}
-              {% if post.code %}
-              <a href="{{post.code}}">code</a> /
-              {% endif %}
-              <p></p>
-              {{ post.excerpt }}
-            </td>
-          </tr>
-          {% endif %}
-          {% endfor %}
-          {% endfor %}
-        </table>
-        <table style="width:0%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:0%;width:0%;vertical-align:left">
-              <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=70&t=n&d=Cm_gYJb0QoY7MQN4YqZTqmOn6KEQYxbrehMS2BNV6oo&co=ffffff&cmo=ffffff&cmn=ffffff&ct=ffffff'></script>
-              <p></p>
-            </td>
-          </tr>
-        </table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:0px">
-              <br>
-              <p style="text-align:center;font-size:small;">
-                Design and source code from <a style="font-size:small;" href="https://jonbarron.info">Jon Barron's website</a>. Forked from the <a href="https://github.com/leonidk/new_website">Jekyll varient</a> by Leonid Keselman.
-              </p>
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="wrapper">
+      <div class="footer-row">
+        <div class="footer-col footer-col-1">
+          <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=70&t=n&d=Cm_gYJb0QoY7MQN4YqZTqmOn6KEQYxbrehMS2BNV6oo&co=ffffff&cmo=ffffff&cmn=ffffff&ct=ffffff'></script>
+        </div>
+        <div class="footer-col footer-col-3" style="text-align: right;">
+          <p style="margin: 0;">Last updated: January 2026.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function toggleSection(contentId) {
+      var content = document.getElementById(contentId);
+      var icon = document.getElementById(contentId.replace('-content', '-icon'));
+      
+      if (content.style.display === "none") {
+        content.style.display = "block";
+        icon.classList.remove('fa-chevron-right');
+        icon.classList.add('fa-chevron-down');
+      } else {
+        content.style.display = "none";
+        icon.classList.remove('fa-chevron-down');
+        icon.classList.add('fa-chevron-right');
+      }
+    }
+
+    function toggleMenu() {
+      var nav = document.getElementById('main-nav');
+      nav.classList.toggle('show');
+    }
+
+    // Close menu when clicking a link
+    document.addEventListener('DOMContentLoaded', function() {
+      var links = document.querySelectorAll('.page-link');
+      links.forEach(function(link) {
+        link.addEventListener('click', function() {
+          document.getElementById('main-nav').classList.remove('show');
+        });
+      });
+    });
+  </script>
+
 </body>
 
 </html>
-
