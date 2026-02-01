@@ -401,18 +401,21 @@ a:hover {
 }
 
 .pub-list {
-  overflow: auto;
+  overflow: visible;
 }
 
 .pub {
   margin-top: 10px;
   margin-bottom: 25px;
-  overflow: auto;
-  padding: 15px;
-  margin-left: -15px;
-  margin-right: -15px;
+  padding: 15px 0;
   border-bottom: 1px solid #e8e8e8;
-  border-radius: 8px;
+  clear: both;
+}
+
+.pub::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .pub-left {
