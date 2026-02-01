@@ -66,7 +66,7 @@ h2 {
   font-weight: 400;
   padding: 0px 0px 10px 0px;
   margin: 20px 0px 10px 0px;
-  border-bottom: 2px solid #9b3022;
+  border-bottom: 2px solid #002676;
 }
 
 h3 {
@@ -85,16 +85,16 @@ strong {
 
 /* Links */
 a {
-  color: #2a7ae2;
+  color: #002676;
   text-decoration: none;
 }
 
 a:visited {
-  color: #1756a9;
+  color: #002676;
 }
 
 a:hover {
-  color: #111;
+  color: #FDB515;
   text-decoration: underline;
 }
 
@@ -170,17 +170,19 @@ a:hover {
 /* Hero Section / Profile Cover */
 .cover {
   max-width: 100%;
-  height: 320px;
+  height: 360px;
   z-index: initial;
   margin-right: auto;
   margin-left: auto;
   padding-right: 0px;
   padding-left: 0px;
+  display: flex;
+  align-items: center;
 }
 
 @media screen and (max-width: 600px) {
   .cover {
-    height: 400px;
+    height: 440px;
   }
 }
 
@@ -195,16 +197,14 @@ a:hover {
 .profile-wrapper {
   border-radius: 25px;
   position: relative;
-  top: 20%;
   width: 600px;
   margin-left: auto;
   margin-right: auto;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 38, 118, 0.15);
 }
 
 @media screen and (max-width: 600px) {
   .profile-wrapper {
-    top: 5%;
     border-radius: 25px;
     position: relative;
     width: calc(90% - 15px);
@@ -265,20 +265,31 @@ a:hover {
   width: 168px;
   height: 168px;
   object-fit: cover;
-  border-width: 4px;
-  border-style: solid;
   border-radius: 50%;
 }
 
 .border-dark {
-  border-color: #292929;
+  animation: blue-glow 3s ease-in-out infinite;
+}
+
+@keyframes blue-glow {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(0, 38, 118, 0.5),
+                0 0 25px rgba(0, 38, 118, 0.3),
+                0 0 35px rgba(0, 38, 118, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(0, 74, 174, 0.6),
+                0 0 30px rgba(0, 74, 174, 0.4),
+                0 0 45px rgba(0, 38, 118, 0.3);
+  }
 }
 
 /* Profile Text */
 #my-name {
   font-size: 32px;
   font-weight: bold;
-  color: #292929;
+  color: #002676;
   margin-bottom: 5px;
 }
 
@@ -313,8 +324,8 @@ a:hover {
 }
 
 .icon-button:hover {
-  background-color: rgba(255, 255, 255, 0.3);
-  border-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(253, 181, 21, 0.2);
+  border-color: #FDB515;
 }
 
 .icon-button span {
@@ -322,15 +333,15 @@ a:hover {
 }
 
 .twitter span {
-  background-color: #4099ff;
+  background-color: #002676;
 }
 
 .linkedin span {
-  background-color: #0077B5;
+  background-color: #002676;
 }
 
 .github span {
-  background-color: #000;
+  background-color: #002676;
 }
 
 .icon-button i {
@@ -346,15 +357,15 @@ a:hover {
 }
 
 .icon-button .icon-twitter {
-  color: #4099ff;
+  color: #002676;
 }
 
 .icon-button .icon-github {
-  color: #000;
+  color: #002676;
 }
 
 .icon-button .icon-linkedin {
-  color: #0077B5;
+  color: #002676;
 }
 
 
@@ -493,7 +504,7 @@ a:hover {
 }
 
 .pub-right > .tags a {
-  color: #2a7ae2;
+  color: #002676;
   font-weight: 500;
   font-size: 15px;
   margin-right: 8px;
