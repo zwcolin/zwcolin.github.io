@@ -235,6 +235,7 @@ a:hover {
 
 .profile-col-1 {
   width: calc(40% - 15px);
+  padding-left: 10px;
 }
 
 .profile-col-2 {
@@ -263,12 +264,51 @@ a:hover {
   clear: both;
 }
 
+#my-pic {
+  position: relative;
+  width: 168px;
+  height: 168px;
+  margin: 0 auto;
+  perspective: 1000px;
+  cursor: pointer;
+}
+
+.flip-inner {
+  position: relative;
+  width: 168px;
+  height: 168px;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+#my-pic:hover .flip-inner {
+  transform: rotateY(180deg);
+}
+
 .circle-img {
-  margin: 0px auto;
   width: 168px;
   height: 168px;
   object-fit: cover;
   border-radius: 50%;
+  display: block;
+}
+
+.flip-front,
+.flip-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 168px;
+  height: 168px;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0;
+}
+
+.flip-back {
+  transform: rotateY(180deg);
 }
 
 .border-dark {
