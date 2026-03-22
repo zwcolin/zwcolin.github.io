@@ -76,7 +76,13 @@
         <div id="my-contact">
           <p id="my-name">Zirui "Colin" Wang</p>
           <p id="my-title">Ph.D. Student, UC Berkeley</p>
-          <p id="my-email">zwcolin [at] eecs.berkeley [dot] edu</p>
+          <p id="my-email">
+            <span id="email-reveal-btn" onclick="openEmailNotice()">
+              <i class="fas fa-envelope"></i> Show Email
+            </span>
+            <span id="email-text" style="display: none;"></span>
+          </p>
+
           
           <div style="margin-top: 15px;">
             <a href="https://scholar.google.com/citations?hl=en&user=xfnk-58AAAAJ" class="icon-button" title="Google Scholar" target="_blank">
@@ -261,6 +267,51 @@
     </div>
   </footer>
 
+  <!-- Email Notice Modal -->
+  <div id="email-notice-overlay" class="email-notice-overlay" onclick="closeEmailNotice(event)">
+    <div class="email-notice-modal">
+      <button class="email-notice-close" onclick="closeEmailNotice(event, true)">&times;</button>
+
+      <!-- Step 1: Category Selection -->
+      <div id="email-step-1">
+        <h3 class="email-modal-title">
+          <i class="fas fa-envelope-open-text"></i> What brings you here?
+        </h3>
+        <div class="email-category-list">
+          <button class="email-category-btn" onclick="showNotice('undergrad')">
+            <i class="fas fa-user-graduate"></i>
+            <span>Undergrad seeking chat / RA opportunities</span>
+          </button>
+          <button class="email-category-btn" onclick="showNotice('vc')">
+            <i class="fas fa-chart-line"></i>
+            <span>Venture capital inquiry</span>
+          </button>
+          <button class="email-category-btn" onclick="showNotice('startup')">
+            <i class="fas fa-rocket"></i>
+            <span>Startup looking to hire</span>
+          </button>
+          <button class="email-category-btn" onclick="showNotice('other')">
+            <i class="fas fa-comments"></i>
+            <span>Other</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Step 2: Tailored Notice -->
+      <div id="email-step-2" style="display: none;">
+        <button class="email-back-btn" onclick="backToCategories()">
+          <i class="fas fa-arrow-left"></i> Back
+        </button>
+        <h3 class="email-modal-title" id="notice-title"></h3>
+        <div id="notice-body"></div>
+        <button class="email-notice-accept" onclick="revealEmail()">
+          I understand, show email
+        </button>
+      </div>
+
+    </div>
+  </div>
+
   <script>
     function toggleSection(contentId) {
       var content = document.getElementById(contentId);
@@ -280,6 +331,73 @@
     function toggleMenu() {
       var nav = document.getElementById('main-nav');
       nav.classList.toggle('show');
+    }
+
+    var emailNotices = {
+      undergrad: {
+        title: '<i class="fas fa-user-graduate"></i> For Undergrads',
+        body: '<p class="email-notice-warning"><i class="fas fa-exclamation-triangle"></i> I receive <strong>50–100 emails like yours per semester</strong>. Please read the following carefully.</p>' +
+          '<p class="email-notice-text"><strong>Do not use LLMs to write or refine your email.</strong> I can tell, and it will very likely result in me not replying. Write in your own voice.</p>' +
+          '<p class="email-notice-text">Whether you are looking for an <strong>RA position</strong> or simply <strong>want to chat</strong>, your email should demonstrate at least one of the following:</p>' +
+          '<ul class="email-notice-list">' +
+            '<li>Sufficient <strong>AI research experience</strong> (not just systems/engineering — I mean research).</li>' +
+            '<li>Other experience that <strong>closely relates to my past work</strong> — and you should elaborate on the connection, not just name-drop papers.</li>' +
+            '<li>A <strong>concrete, non-LLM-written research proposal</strong> for something you want to build based on my research direction.</li>' +
+          '</ul>' +
+          '<p class="email-notice-text">If you are inquiring about an <strong>RA position</strong> specifically, you should also attach your <strong>CV</strong> and <strong>academic history</strong> along with one of the above.</p>'
+      },
+      vc: {
+        title: '<i class="fas fa-chart-line"></i> For Venture Capital Inquiries',
+        body: '<p class="email-notice-warning"><i class="fas fa-exclamation-triangle"></i> I do <strong>not respond to cold emails</strong> for information solicitation.</p>' +
+          '<p class="email-notice-text">If we have met before — at an event, through a mutual connection, or in a prior conversation — feel free to reach out and reference how we know each other.</p>' +
+          '<p class="email-notice-text">If you would like to meet me for the first time, I prefer a <strong>private, in-person chat over lunch or dinner around Berkeley</strong>. Please propose a time and place rather than requesting a call or sending a list of questions over email.</p>'
+      },
+      startup: {
+        title: '<i class="fas fa-rocket"></i> For Startups Looking to Hire',
+        body: '<p class="email-notice-warning"><i class="fas fa-exclamation-triangle"></i> I am <strong>not actively looking for roles</strong>. General recruiting inquiries will be ignored — please do not send them.</p>' +
+          '<p class="email-notice-text">If you see me as a <strong>uniquely strong fit</strong> for your team, or you are one of the <strong>strongest neo labs</strong> in the space, feel free to reach out — but please elaborate on why you are reaching out to me specifically and what makes the opportunity compelling.</p>'
+      },
+      other: {
+        title: '<i class="fas fa-comments"></i> General Inquiry',
+        body: '<p class="email-notice-warning"><i class="fas fa-exclamation-triangle"></i> By selecting this option, you confirm that you are <strong>not</strong> an undergraduate seeking chat/RA opportunities, a venture capital representative, or a startup recruiter.</p>' +
+          '<p class="email-notice-text">If you belong to any of those categories, please go back and select the appropriate one. Otherwise, feel free to reach out with your inquiry.</p>'
+      }
+    };
+
+    function openEmailNotice() {
+      document.getElementById('email-step-1').style.display = 'block';
+      document.getElementById('email-step-2').style.display = 'none';
+      document.getElementById('email-notice-overlay').classList.add('active');
+    }
+
+    function closeEmailNotice(e, force) {
+      if (force || e.target === document.getElementById('email-notice-overlay')) {
+        document.getElementById('email-notice-overlay').classList.remove('active');
+      }
+    }
+
+    function showNotice(category) {
+      var notice = emailNotices[category];
+      document.getElementById('notice-title').innerHTML = notice.title;
+      document.getElementById('notice-body').innerHTML = notice.body;
+      document.getElementById('email-step-1').style.display = 'none';
+      document.getElementById('email-step-2').style.display = 'block';
+    }
+
+    function backToCategories() {
+      document.getElementById('email-step-1').style.display = 'block';
+      document.getElementById('email-step-2').style.display = 'none';
+    }
+
+    function revealEmail() {
+      var p = [122,119,99,111,108,105,110];
+      var d = [101,101,99,115,46,98,101,114,107,101,108,101,121,46,101,100,117];
+      var addr = String.fromCharCode.apply(null, p) + '@' + String.fromCharCode.apply(null, d);
+      var emailText = document.getElementById('email-text');
+      emailText.innerHTML = '<a href="mailto:' + addr + '">' + addr + '</a>';
+      emailText.style.display = 'inline';
+      document.getElementById('email-reveal-btn').style.display = 'none';
+      document.getElementById('email-notice-overlay').classList.remove('active');
     }
 
     // Navigation link handling
