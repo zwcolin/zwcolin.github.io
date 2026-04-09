@@ -1,7 +1,7 @@
 ---
 layout: post
 image: /images/visgym.png
-venue: "ICLR Workshop on Efficient Spatial Reasoning (<strong><span style='color:red;'>Oral</span></strong>)"
+venue: "ICLR Workshop on Efficient Spatial Reasoning (<strong><span style='color:red;'>Oral</span></strong>)<br>ICLR Workshop on Multimodal Intelligence (<strong><span style='color:red;'>Oral</span></strong>)"
 title:  "VisGym: Diverse, Customizable, Scalable Environments for Multimodal Agents"
 authors: <strong>Zirui Wang*</strong>, Junyi Zhang*, Jiaxin Ge*, Long Lian, Letian Fu, Lisa Dunlap, Ken Goldberg, Xudong Wang, Ion Stoica, David M. Chan, Sewon Min, Joseph E. Gonzalez
 date:   2026-01-12 00:00:00 +00:00
