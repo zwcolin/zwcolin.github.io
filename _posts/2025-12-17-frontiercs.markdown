@@ -1,10 +1,10 @@
 ---
 layout: post
 image: /images/frontiercs.png
-venue: "Preprint"
+venue: "International Conference on Machine Learning (<strong>ICML</strong>)"
 title:  "FrontierCS: Evolving Challenges for Evolving Intelligence"
 authors: Qiuyang Mang, Wenhao Chai, Zhifei Li, Huanzhi Mao, Shang Zhou, Alexander Du, Hanchen Li, Shu Liu, Edwin Chen, Yichuan Wang, Xieting Chu, Zerui Cheng, Yuan Xu, Tian Xia, <strong>Zirui Wang</strong>, Tianneng Shi, Jianzhu Yao, Yilong Zhao, Qizheng Zhang, Charlie Ruan, Zeyu Shen, Kaiyuan Liu, Runyuan He, Dong Xing, Zerui Li, Zirong Zeng, Yige Jiang, Lufeng Cheng, Ziyi Zhao, Youran Sun, Wesley Zheng, Meiyuwang Zhang, Ruyi Ji, Xuechang Tu, Zihan Zheng, Zexing Chen, Kangyang Zhou, Zhaozi Wang, Jingbang Chen, Aleksandra Korolova, Peter Henderson, Pramod Viswanath, Vijay Ganesh, Saining Xie, Zhuang Liu, Dawn Song, Sewon Min, Ion Stoica, Joseph E. Gonzalez, Jingbo Shang, Alvin Cheung
-date:   2025-12-17 00:00:00 +00:00
+date:   2026-01-01 00:00:00 +00:00
 website: "https://frontier-cs.org/"
 arxiv: "https://arxiv.org/abs/2512.15699"
 code: "https://github.com/FrontierCS/Frontier-CS"
