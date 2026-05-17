@@ -1,0 +1,11 @@
+---
+layout: post
+image: /images/pixelrag.png
+venue: "Preprint"
+title:  "PixelRAG: When Pictures Beat Words over Millions of Web Screenshots"
+authors: Yichuan Wang*, Zhifei Li*, <strong>Zirui Wang</strong>, Paul Teiletche, Lesheng Jin, Matei Zaharia†, Joseph E. Gonzalez†, Sewon Min†
+date:   2026-05-15 00:00:00 +00:00
+arxiv: "/pdfs/pixelrag.pdf"
+categories: research
+---
+We introduce PixelRAG, a retrieval-augmented generation framework that indexes the web as rendered screenshot tiles rather than parsed text chunks. By retrieving pixels directly, PixelRAG preserves tables, layouts, and visual structure that text-based pipelines often lose, enabling reader models to answer questions that text-only RAG cannot.

@@ -1,0 +1,10 @@
+---
+layout: post
+image: /images/sve.png
+venue: "Preprint"
+title:  "Stateful Visual Encoders for Vision-Language Models"
+authors: <strong>Zirui Wang</strong>, Junwei Yu, Adam Yala, David M. Chan, Joseph E. Gonzalez, Trevor Darrell
+date:   2026-05-16 00:00:00 +00:00
+categories: research
+---
+We introduce stateful visual encoders for vision-language models, where we condition visual represetations of later images on those of previous images inside the visual encoder. This enables visual representations to be change-aware and improves vision-langauge models for multi-image reasoning and change understanding.
