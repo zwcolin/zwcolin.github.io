@@ -1,0 +1,13 @@
+---
+layout: post
+image: /images/rats.png
+venue: "Preprint"
+title:  "Playful Agentic Robot Learning"
+authors: Junyi Zhang*†, Jiaxin Ge*†, Hanjun Yoo†, Letian Fu‡, Zihan Yang‡, Yaowei Liu‡, Raj Saravanan‡, Shaofeng Yin, Justin Yu, Dantong Niu, <strong>Zirui Wang</strong>, Roei Herzig, Ken Goldberg, Yutong Bai, David M. Chan, Ion Stoica, Angjoo Kanazawa, Jiahui Lei§, Haiwen Feng§, Trevor Darrell
+date:   2026-06-18 00:00:00 +00:00
+website: "https://playful-rats.github.io/"
+arxiv: "https://arxiv.org/abs/2606.19419"
+code: "https://github.com/Playful-RATs/rats"
+categories: research
+---
+We study Playful Agentic Robot Learning with RATs, an embodied coding agent that uses self-directed play as a continual skill-learning stage before downstream tasks arrive. RATs proposes novel yet learnable tasks, writes and executes robot-code policies, verifies progress, diagnoses failures, and distills successful executions into a persistent library of callable code skills that improve held-out tasks and transfer to other Code-as-Policy agents without finetuning.
