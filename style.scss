@@ -640,10 +640,9 @@ a:hover {
 .pub-left {
   float: left;
   width: calc(35% - 15px);
-  max-width: 280px;
   text-align: center;
-  margin-right: 20px;
-  margin-bottom: 12px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .pub-left > .intro-img {
@@ -662,9 +661,8 @@ a:hover {
 }
 
 .pub-right {
-  /* No float/fixed width: the text flows around the floated figure,
-     filling the space beside and below short teaser images. */
-  overflow: visible;
+  float: right;
+  width: calc(65% - 15px);
 }
 
 @media screen and (max-width: 800px) {
