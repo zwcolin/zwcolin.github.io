@@ -1,7 +1,7 @@
 ---
 layout: post
 image: /images/sve.png
-venue: "Preprint"
+venue: "ECCV Workshop on Medical Foundation Models and Benchmarks (<strong><span style='color:red;font-style:normal;'>Oral</span></strong>)"
 title:  "Stateful Visual Encoders for Vision-Language Models"
 authors: <strong>Zirui Wang</strong>, Junwei Yu, Adam Yala, David M. Chan, Joseph E. Gonzalez, Trevor Darrell
 date:   2026-05-16 00:00:00 +00:00
