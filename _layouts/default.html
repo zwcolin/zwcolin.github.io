@@ -80,7 +80,7 @@
             <span id="email-text" style="display: none;"></span>
           </p>
 
-          
+
           <div style="margin-top: 15px;">
             <a href="https://scholar.google.com/citations?hl=en&user=xfnk-58AAAAJ" class="icon-button" title="Google Scholar" target="_blank">
               <span class="linkedin"></span>
@@ -111,8 +111,8 @@
       <div class="bio" id="biography">
         <h2><i class="fas fa-user"></i> About</h2>
         <div class="bio-body">
-          <p>I am a first-year Ph.D. student in <a href="https://eecs.berkeley.edu/">EECS</a> at <a href="https://www.berkeley.edu/">UC Berkeley</a>, affiliated with <a href="https://bair.berkeley.edu/">Berkeley AI Research (BAIR)</a> and <a href="https://sky.cs.berkeley.edu/">Sky Computing Lab</a>. My research is advised by <a href="https://people.eecs.berkeley.edu/~trevor/">Prof. Trevor Darrell</a> and <a href="https://people.eecs.berkeley.edu/~jegonzal/">Prof. Joseph Gonzalez</a>. I am interested in <strong>multimodal interactive intelligence</strong>. I am currently a research scientist intern at <a href="https://www.meta.ai/">Meta Superintelligence Lab</a></p>
-          
+          <p>I have been a Ph.D. student in <a href="https://eecs.berkeley.edu/">EECS</a> at <a href="https://www.berkeley.edu/">UC Berkeley</a> since 2025 and a research scientist intern at <a href="https://www.meta.ai/">Meta Superintelligence Lab</a>, working with the Muse Product Post-Training team. At Berkeley, I am affiliated with <a href="https://bair.berkeley.edu/">Berkeley AI Research (BAIR)</a> and <a href="https://sky.cs.berkeley.edu/">Sky Computing Lab</a>. My research is advised by <a href="https://people.eecs.berkeley.edu/~trevor/">Prof. Trevor Darrell</a> and <a href="https://people.eecs.berkeley.edu/~jegonzal/">Prof. Joseph Gonzalez</a>. I am interested in <strong>multimodal interactive intelligence</strong>.</p>
+
           <p>Previously, I worked as a Member of Technical Staff at <a href="https://www.voio.com/">Voio, Inc</a>, where I co-led multimodal post-training for vision-language models to understand and reason about volumetric radiology scans. I obtained B.S. in Data Science at the <a href="https://datascience.ucsd.edu/">Halicioglu Data Science Institute (HDSI)</a> and B.A. in Cognitive Science at the <a href="https://cogsci.ucsd.edu/">CogSci Department</a> at the <a href="https://www.ucsd.edu/">University of California, San Diego (UCSD)</a>. I was advised by <a href="https://pages.ucsd.edu/~ztu/">Prof. Zhuowen Tu</a> and <a href="http://zhiting.ucsd.edu/">Prof. Zhiting Hu</a> for <strong>generative models in computer vision</strong> during my undergraduate years. I obtained my M.S.E. in Computer Science at <a href="https://www.princeton.edu/">Princeton University</a>, advised by <a href="https://www.cs.princeton.edu/~danqic/">Prof. Danqi Chen</a> where I worked on <strong>multimodal pre-training, reasoning and evaluation</strong>. I am a recipient of <a href="https://www.siebelscholars.com/scholar-profile/3842/">Siebel Scholar, Class of 2025</a> in Computer Science and a member of the inaugural cohort of <a href="https://deltainstitutes.org/cohort1#:~:text=CS%2C%20prev%20Together-,Zirui%20(Colin)%20Wang,-Berkeley%20EECS%20PhD">Delta Fellows</a>.</p>
         </div>
       </div>
@@ -181,9 +181,10 @@
           <ul style="margin-bottom: 10px;">
             <li>International Conference on Machine Learning (<strong>ICML</strong>): 2024, 2025, 2026</li>
             <li>International Conference on Learning Representations (<strong>ICLR</strong>): 2024, 2025, 2026</li>
-            <li>Conference on Neural Information Processing Systems (<strong>NeurIPS</strong>): 2024 🏆*, 2025</li>
+            <li>Conference on Neural Information Processing Systems (<strong>NeurIPS</strong>): 2024 🏆*, 2025, 2026</li>
             <li>Association for Computational Linguistics (<strong>ACL</strong>): 2025</li>
-            <li>Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>): 2025</li>
+            <li>European Conference on Computer Vision (<strong>ECCV</strong>): 2026</li>
+            <li>Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>): 2025, 2026</li>
             <li>Association for the Advancement of Artificial Intelligence (<strong>AAAI</strong>): 2026</li>
           </ul>
           <p style="font-size: 12px; color: #666; margin-left: 20px;">* Outstanding Reviewer</p>
@@ -313,7 +314,7 @@
     function toggleSection(contentId) {
       var content = document.getElementById(contentId);
       var icon = document.getElementById(contentId.replace('-content', '-icon'));
-      
+
       if (content.style.display === "none" || content.style.display === "") {
         content.style.display = "block";
         icon.classList.remove('fa-chevron-right');
@@ -404,10 +405,10 @@
         link.addEventListener('click', function(e) {
           e.preventDefault();
           document.getElementById('main-nav').classList.remove('show');
-          
+
           var targetId = this.getAttribute('href').substring(1);
           var targetElement = document.getElementById(targetId);
-          
+
           if (targetElement) {
             targetElement.scrollIntoView({
               block: 'start'
