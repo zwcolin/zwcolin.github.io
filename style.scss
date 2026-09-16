@@ -354,9 +354,13 @@ a:hover {
   height: 100%;
   background: rgba(0, 0, 0, 0.45);
   z-index: 2000;
-  overflow: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: 60px 16px;
   &.active {
-    display: block;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
   }
 }
 
@@ -365,11 +369,8 @@ a:hover {
   border-radius: 16px;
   padding: 28px 32px;
   max-width: 500px;
-  width: 90%;
-  position: absolute;
-  top: 80px;
-  left: 50%;
-  transform: translateX(-50%);
+  width: 100%;
+  position: relative;
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
   animation: modalSlideIn 0.25s ease-out;
   text-align: left;
@@ -378,11 +379,11 @@ a:hover {
 @keyframes modalSlideIn {
   from {
     opacity: 0;
-    transform: translateX(-50%) translateY(-20px) scale(0.96);
+    transform: translateY(-20px) scale(0.96);
   }
   to {
     opacity: 1;
-    transform: translateX(-50%) translateY(0) scale(1);
+    transform: translateY(0) scale(1);
   }
 }
 
@@ -397,41 +398,6 @@ a:hover {
   }
 }
 
-.email-category-list {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.email-category-btn {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  width: 100%;
-  padding: 14px 16px;
-  background: #f7f8fc;
-  border: 1.5px solid #e4e7f0;
-  border-radius: 10px;
-  cursor: pointer;
-  text-align: left;
-  font-size: 14px;
-  font-weight: 500;
-  color: #333;
-  transition: all 0.15s ease;
-  i {
-    font-size: 16px;
-    color: #002676;
-    width: 20px;
-    text-align: center;
-    flex-shrink: 0;
-  }
-  &:hover {
-    background: #eef1fa;
-    border-color: #002676;
-    color: #002676;
-  }
-}
-
 .email-notice-text {
   font-size: 14px;
   color: #444;
@@ -440,46 +406,19 @@ a:hover {
   text-align: left;
 }
 
-.email-notice-warning {
-  background: #fef2f2;
-  border-left: 3px solid #dc2626;
+.email-notice-highlight {
+  background: #eef2fb;
+  border-left: 3px solid #002676;
   padding: 10px 14px;
   margin-bottom: 14px;
   border-radius: 0 6px 6px 0;
   font-size: 14px;
-  color: #991b1b;
-  line-height: 1.6;
+  color: #23314f;
+  line-height: 1.7;
+  text-align: left;
   i {
     margin-right: 6px;
-    color: #dc2626;
-  }
-}
-
-.email-notice-list {
-  margin: 0 0 14px 20px;
-  padding: 0;
-  text-align: left;
-  li {
-    font-size: 14px;
-    color: #444;
-    line-height: 1.7;
-    margin-bottom: 6px;
-  }
-}
-
-.email-back-btn {
-  background: none;
-  border: none;
-  color: #888;
-  font-size: 13px;
-  cursor: pointer;
-  padding: 0;
-  margin-bottom: 12px;
-  &:hover {
     color: #002676;
-  }
-  i {
-    margin-right: 4px;
   }
 }
 
